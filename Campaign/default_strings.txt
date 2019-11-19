@@ -1,0 +1,2 @@
+0	Nowhere
+1	New

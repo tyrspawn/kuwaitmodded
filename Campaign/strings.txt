@@ -1,0 +1,1937 @@
+0	0
+1	1
+2	2
+3	3
+4	4
+5	5
+6	6
+7	7
+8	8
+9	9
+10	Horrible
+11	Poor
+12	Average
+13	Good
+14	Excellent
+15	st
+16	nd
+17	rd
+18	th
+19	Failed
+20	Partial failure
+21	Partial success
+22	Success
+23	In progress
+24	AWACS mission abort
+25	Mission failed: 
+26	Mission partial failure: 
+27	Mission partial success: 
+28	Mission success: 
+30	North
+31	Northeast
+32	East
+33	Southeast
+34	South
+35	Southwest
+36	West
+37	Northwest
+38	here
+40	XX
+41	U.S.
+42	Coalition
+43	Kuwait
+44	Saudi Arabia
+45	Iran
+46	Iraq
+47	Gorn
+50	#0:#1:#2
+51	#0 km #1 of #2
+52	#0 nm #1 of #2
+53	#0 of #1
+54	near #0
+55	within #0
+56	over #0
+57	#0:#1
+58	%s, %s
+75	PAUSED
+76	x1
+77	x2
+78	x4
+79	FREEZE
+80	XX
+81	Combined Forces
+82	Combined Forces
+83	Kuwaiti
+84	People's Alliance
+85	People's Alliance
+86	People's Alliance
+90	Functional
+91	Repaired
+92	Damaged
+93	Destroyed
+95	OK
+96	KIA
+97	MIA
+98	RS
+99	OK
+100	Divert Task:
+101	Related Events:
+102	Con Layer:
+103	Time on Target: 
+104	Time on Station: 
+105	Diverted
+106	Situation: 
+107	Package Elements: 
+108	Threat Analysis:
+109	Weather:
+110	Wind:
+111	Temp:
+112	Clouds:
+113	#
+114	Desc
+115	Time
+116	IAS
+117	Alt
+118	Comments
+119	Station Area: 
+120	Patrol Time: 
+121	Mission: 
+122	Your Task: 
+123	Pilot Rating:      
+124	Losses: 
+125	Package Statistics:
+126	Flight
+127	Aircraft
+128	Comments
+129	Flight Statistics:
+130	Rules of Engagement:
+131	Callsign
+132	Status
+133	Ordnance Fired
+134	Results
+135	Pilot Statistics:
+136	Pilot
+137	AA Kills
+138	AG Kills
+139	Rating
+140	Results:
+141	Actual TOT: 
+142	Actual TOS: 
+143	Steerpoints:
+144	Ordnance:
+145	Emergency Procedures:
+146	:
+147	Head
+148	Dist
+149	Alternate landing strip: 
+150	Support:
+151	Event List
+160	 miss
+161	 misses
+162	 hit
+163	 hits
+164	%
+165	 operational
+166	 strength
+167	(Detached)
+168	target
+169	none
+175	 @ 
+176	,000 ft MSL base
+180	 deg
+181	 kts.
+182	 deg C.
+185	--
+186	 x 
+187	 (
+188	) 
+189	.
+190	, 
+191	enemy
+192	Enemy
+200	 CAP aircraft are expected to be operating near target area.
+201	 strike aircraft are expected to be operating within station area.
+202	s are expected to be operating within operation area.
+203	No enemy air response is anticipated.
+205	 low
+206	 high
+208	Shoulder launched SAMs and AAA may be present in target area.
+209	 are expected 
+210	along ingress route
+211	at target area
+212	.
+213	There are no known enemy air defense assets along your flight path.
+220	(AWACS):
+221	(JSTAR): 
+222	(Tanker): 
+223	. Available for air detection and warning. Contact on Channel 1.
+224	. Available for ground movement queries. Contact on Channel 1.
+225	, and are available for mid-air refueling. Contact on Channel 1.
+226	SAR helos are available within 30 km of FLOT. In case of shoot-down, fly RESCAP and contact SAR on Channel 3.
+227	SAR helos are available. In case of shoot-down, contact on Channel 3.
+228	 altitude SAMs
+229	Good Luck!
+230	, which is located 
+231	, located 
+232	Intelligence reports the highest impact targets are:
+233	Potential targets in the area include:
+234	Known or suspected enemy air defenses along your flight path include:
+235	 missile launchers
+236	 anti-aircraft guns
+237	Alternate landing strip
+238	The 
+239	Never arrived
+240	 seconds late
+241	 seconds early
+242	Data is currently unavailable
+243	Capture 
+244	Hold 
+245	Liberate 
+246	Hostile aircraft are expected to be operating within station area.
+247	Return to previous steerpoint
+248	Friendly AWACS aircraft will be operating 
+249	Friendly JSTAR aircraft will be operating 
+250	Friendly tankers will be operating 
+251	 minutes late
+252	 minutes early
+253	the front
+254	Enemy CAP aircraft are likely to be operating within operation area.
+255	No alternate landing strip is currently available.
+257	no valid targets
+260	(ECM): Friendly ECM will be jamming. Available for area jamming.
+270	FLY-BY CAMERA
+271	CHASE CAMERA
+272	ORBIT CAMERA
+273	TOWER CAMERA
+274	SATELLITE CAMERA
+275	WEAPON CAMERA
+276	TARGET TO WEAPON CAMERA
+277	ENEMY AIRCRAFT CAMERA
+278	FRIENDLY AIRCRAFT CAMERA
+279	ENEMY GROUND UNIT CAMERA
+280	FRIENDLY GROUND UNIT CAMERA
+281	INCOMING MISSILE CAMERA
+282	SELF TO TARGET CAMERA
+283	TARGET TO SELF CAMERA
+284	ACTION CAMERA
+285	RECORDING
+300	None
+301	DCA
+302	BARCAP
+303	HAVCAP
+304	TARCAP
+305	RESCAP
+306	AmbushCAP
+307	Sweep
+308	Alert
+309	Intercept
+310	Escort
+311	SEAD Strike
+312	SEAD Escort
+313	OCA Strike
+314	Strike
+315	Strike
+316	Deep Strike
+317	Stealth
+318	Strat Bomb
+319	FAC
+320	On Call CAS
+321	Pre-plan CAS
+322	CAS
+323	Interdiction
+324	Interdiction
+325	BAI
+326	AWACS
+327	JSTAR
+328	Tanker
+329	Recon
+330	BDA
+331	ECM
+332	Air Mobile
+333	Air Lift
+334	SAR
+335	ASW
+336	Naval Strike
+337	Patrol
+338	Recon Patrol
+339	Abort
+340	Training
+350	--
+351	Takeoff
+352	Push Pt
+353	Split
+354	Refuel
+355	Rearm
+356	Pickup
+357	Land
+358	Timing
+359	Contact
+360	Escort
+361	Sweep
+362	CAP
+363	Intercept
+364	Attack
+365	Attack
+366	S&D
+367	Strike
+368	Bomb
+369	SEAD
+370	ELINT
+371	Recon
+372	Rescue
+373	ASW
+374	Fuel
+375	Air Drop
+376	Jam
+377	Nothing
+378	Nothing
+379	Nothing
+380	FAC
+381	Pre IP
+382	IP
+383	Turn Pt
+384	Nothing
+385	Nothing
+386	Nothing
+387	Nothing
+388	Nothing
+389	Nav
+390	Move Opposed
+391	Move Unopposed
+392	Move Airborne
+393	Move Amphib
+394	Defend
+395	Repair
+396	Reserve
+397	Air Defense
+398	Fire Support
+399	Secure
+400	This is not a mission
+401	Prevent enemy aircraft from hitting friendly targets
+402	Prevent hostile aircraft from entering your station area
+403	Protect high value package assets from enemy aircraft
+404	Clear the target area of any enemy aircraft
+405	Rescue that poor sap
+406	Prevent hostile aircraft from passing your ambush area
+407	Clear sweep area of hostile aircraft
+408	Maintain alert status in case of incoming hostile aircraft
+409	Intercept and destroy target
+410	Protect package elements from enemy aircraft
+411	Suppress or destroy enemy air defense assets
+412	Protect package from enemy air defenses
+413	Destroy 
+414	Destroy 
+415	Destroy 
+416	Destroy 
+417	Destroy 
+418	Bomb 
+419	Spot enemy ground assets and call in CAS aircraft
+420	Fly to target area and contact FAC
+421	Attack the 
+422	Attack the 
+423	Search for enemy targets, engage and destroy at will
+424	Search for enemy targets, engage and destroy at will
+425	Search for enemy targets, engage and destroy at will
+426	Search for enemy air targets and route friendly flights
+427	Search for enemy ground targets and route friendly flights
+428	Refuel friendly flights
+429	Photograph targets at 
+430	Assess damage inflicted at target site
+431	Jam enemy radar
+432	Transport infantry
+433	Transport supplies
+434	Rescue downed pilot
+435	Search for enemy submarines
+436	Strike enemy ships
+437	Search for enemy naval assets
+438	Search for enemy ground vehicles
+439	Return home
+440	Follow Instructions
+441	This is not a mission
+463	 or other facilities at target site
+464	 at target site
+465	 at target site
+466	 and return home immediately
+467	 and nearby facilities at target site
+468	 at target site
+500	<Nut'n>
+501	Airbase
+502	Airstrip
+503	Army Base
+504	Beach
+505	Border
+506	Bridge
+507	Chemical Plant
+508	City
+509	Headquarters
+510	Depot
+511	Factory
+512	Ford
+513	Fortification
+514	Hill Top
+515	Junction
+516	Nav Beacon
+517	Nuclear Plant
+518	Pass
+519	Port
+520	Power plant
+521	Radar Station
+522	Radio Tower
+523	Rail Terminal
+524	Railroad
+525	Refinery
+526	Highway
+527	Sea
+528	Town
+529	Village
+530	HART Site
+531	SAM Site
+540	Nothing
+541	Airlift
+542	ASW
+543	Attack
+544	Attack
+545	AWACS
+546	Bomber
+547	ECM
+548	Fighter
+549	Fighter
+550	JSTAR
+551	Recon
+552	Recon
+553	Tanker
+554	Airlift
+555	 ft.
+556	 nm.
+557	Visibility:
+558	RVR
+559	Blank
+560	Nothing
+561	Air Defense
+562	Airmobile
+563	Armored
+564	Armored Cav
+565	Engineer
+566	HQ
+567	Infantry
+568	Marine
+569	Mechanized
+570	Rocket Artillery
+571	SP Artillery
+572	SS Missile
+573	Supply/Transport
+574	Towed Artillery
+575	Reserve
+576	Very Poor
+577	Poor
+578	Moderate
+579	Good
+580	Excellent
+581	Amphibious
+582	Battleship
+583	Carrier
+584	Cruiser
+585	Destroyer
+586	Frigate
+587	Patrol Boat
+588	Supply
+589	Tanker
+590	Blank
+591	Blank
+592	Blank
+593	Blank
+594	Blank
+595	Blank
+596	Blank
+597	Blank
+598	Blank
+599	Blank
+600	Clear
+601	Scattered
+602	Broken
+603	Overcast
+604	Rain
+610	Squadron
+611	Flight
+612	Package
+613	Division
+614	Brigade
+615	Battalion
+616	Task Force
+617	Nothing
+650	None
+651	Low
+652	Low/Medium
+653	Medium
+654	Medium/High
+655	High
+656	Very High
+657	Orbital
+660	Visually ID unknown aircraft before engaging, unless authorized by AWACS.
+661	Friendly aircraft may be operating in the area.
+662	Only engage enemy aircraft if the risk is relatively low. 
+663	BVR engagement is authorized.
+670	US
+671	Saudi Arabian
+672	Iranian
+673	Coalition
+674	Iraqi
+700	No context.
+701	Army intelligence reports the #c1 #DB1 is advancing towards #0 and will be forced to cross #DB0. We hope to destroy the bridge before the enemy is able to get across, and substantially delay their attack.
+702	Army intelligence reports the #c1 #DB1 is moving towards #0 and will need to cross #DB0. We hope to destroy the bridge before the enemy is able to get across, delaying their movement.
+703	Army intelligence reports the #c0 #DB0 is advancing towards #0. Air command hopes to attrit their forces by air before they engage friendly forces at the front.
+704	Army intelligence reports the #c0 #DB0 is moving towards #0. Air command hopes to attrit their forces before they arrive at the front.
+705	Friendly troops in the area #Ls are anticipating an attack by the #c0 #DB0 and will require close air support starting at #1.
+706	Friendly forces in the area #Ls are advancing towards #0 and expect to make contact with the #c0 #DB0. Ground commanders in the area are requesting air support starting at #1.
+707	Army Intelligence reports high enemy activity in the area #Ln. We would like to disrupt or destroy as many enemy forces in this area as possible.
+708	FAC aircraft in the area #Ls have spotted elements of the #c0 #DB0 and are directing CAS aircraft in for an attack.
+709	NOT USED
+710	NOT USED
+711	NOT A PLAYER CONTEXT.
+712	NOT USED
+713	NOT USED
+714	Air command would like to maintain air superiority in the area #Ln. We'll be flying 15 minute DCA missions here. Each mission is responsible for protecting targets within the station area during its assigned station time.
+715	Air command would like to clear the area #Lg of enemy aircraft and helicopters. Air command will be running an offensive sweep mission in the area in the hopes that we can clear the area of enemy assets while suffering minimal losses.
+716	Air command would like to run a JSTAR (Joint Systems Target Area Radar) mission #Lg in order to detect enemy ground forces and direct friendly ground attack aircraft near the front.
+717	ELINT reports an enemy search radar operating #Lg. We would like to jam these emissions in order to clear the way for strike aircraft.
+718	Intelligence reports enemy #0s have been operating in the area #Lg. Air command would like to eliminate these assets by running an offensive sweep mission against them.
+719	Army command would like to clear the area #Ln of enemy CAS aircraft and helicopters. Air command will be running an offensive sweep mission in the area in the hopes that we can clear the area of enemy assets while suffering minimal losses.
+720	#C0 #0 have been detected inbound towards your location. We need to destroy them or force them to abort. AWACS will direct you to an intercept point.
+721	NOT USED
+722	Hostile aircraft have been violating the border #Ln. Air command hopes to stop any potential strikes, so will be flying 15 minute BARCAP missions in the area. Each mission is responsible for protecting targets within the station area during its assigned station time.
+723	NOT USED
+724	#0 SAR choppers are attempting to extract a downed pilot in the area #Ln. We need to clear out any enemy fighters to make way for the friendly choppers.
+725	#0 CAS aircraft have been tasked to hit enemy ground forces in the area #Ln. We need to clear out any enemy fighters to make way for the friendlies.
+726	#0s are tasked to enter the area #Ln. We need to clear out any enemy fighters to make way for the friendlies.
+727	Air command would like to maintain a tanker station in the area #Lg due to the high volume of friendly aircraft operating in or near the region.
+728	NOT USED
+729	NOT USED
+730	Satellite photos suggest large numbers of enemy supply vehicles have been crossing the #DB0. We need to destroy the bridge in order to hamper the enemy's ability to resupply their forward units.
+731	Naval reconnaissance has reported enemy supplies moving into and through #DB0. We hope to slow this operation by damaging their port facilities and possibly catch a supply ship in port.
+732	Intelligence claims the enemy is stockpiling supplies at #DB0. We would like to destroy these facilities and as much of the supplies stored there as possible.
+733	Army intelligence reports the enemy is moving supplies through the area #Ln. We would like to interdict these supplies in an effort to reduce the amount reaching the front.
+734	NOT USED
+735	Reports show the #DB0 is currently producing war materials for the enemy. We would like to destroy or damage the facilities in an effort to slow its output.
+736	Reports show that large stockpiles of fuel are being stored at #DB0. We would like to destroy these facilities and as much of the stockpiled fuel as possible.
+737	Intelligence claims the #DB0 is producing a substantial portion of the enemy's electrical power. We would like to put the facility out of commission.
+738	Intelligence reports the enemy is using #DB0 as a command and control facility. We hope that by destroying this installation we can disrupt their control capability.
+739	The #c0 #DB0, located #Ls consists of several 
+740	Intelligence reports the following squadrons are currently operating out of #DB0, located #Lg:
+741	ELINT reports enemy air search radar emissions are coming from #DB0. Air command would like to destroy or disable this radar station in order to reduce the enemy detection capability and clear the way for additional friendly strikes.
+742	NOT USED
+743	NOT USED
+744	Air command would like to run an AWACS (Airborne Warning and Command System) mission #Lg in order to direct friendly air operations throughout the theater.
+745	Badly needed supplies are awaiting transport in Hawaii and Japan. We need to fly these supplies into #DB0 where they'll get distributed to friendly forces. 
+746	Badly needed supplies are awaiting transport in Hawaii and Japan. We need to ship these supplies into #DB0 where they'll get distributed to friendly forces. 
+747	Badly needed supplies are awaiting transport. We need to move these supplies into #DB0 where they'll get distributed to friendly forces. 
+748	Badly needed supplies are awaiting transport. We need to transport these supplies into #DB0 where they'll get distributed to friendly forces. 
+749	Intelligence has been unable to obtain reliable information on the status of #DB0, so we're going to run a recon mission to photograph the area by air.
+752	#0 #1. As part of this effort, air command needs you to destroy or suppress the enemy's air defenses in an attempt to clear the way for additional strikes. Your target is the #c0 #DB0, located #Ls, which consists of several 
+753	#0 #1. As part of this effort, you have been tasked to hit #DB0 in an attempt to disrupt the enemy's ability to detect and respond to additional friendly strikes which will be entering the area shortly after your target time.
+754	#0 #1. As part of this effort, you have been tasked to perform a fighter sweep in an attempt to clear out as many enemy fighters as possible before our primary strike packages enter the region.
+755	#0 #1. PROBABLY NOT USED
+756	#0 #1. If everything goes as planned, earlier SEAD strikes and fighter sweeps will have suppressed or cleared most of the air defenses in the region allowing us to strike several airbases, search radars and command facilities including your target, #DB0.
+757	#0 #1. If everything goes as planned, earlier SEAD, fighter sweep and OCA strike packages will have cleared the region of air defenses, allowing us to strike key production and infrastructure targets, including your target, #DB0.
+758	#0 #1. As part of this effort, you have been tasked to attack the #DB0, located #Ln.
+759	#0 #1. PROBABLY NOT USED.
+760	#0 #1. PROBABLY NOT USED.
+761	The #c0 #DB0 has been spotted operating #Lg. We would like to cause as much damage to this force as possible, especially the capital ships.
+762	Intelligence reports the #c0 #DB0 is currently taking on supplies at #Le. If we act quickly, we might be able to hit them by surprise.
+763	Intelligence reports the #c0 #DB0 is currently unloading supplies at #Le. By eliminating these assets, we can help prevent future resupplies.
+814	Potential targets in the area include:
+821	Potential targets in the area include:
+822	Potential targets in the area include:
+839	 which are preventing additional strikes from entering enemy airspace. Air command wants these defenses eliminated.
+840	Air command would like to damage or destroy their facilities in order to reduce their sortie rate.
+852	.
+855	In an effort to obtain air superiority, air command has initiated a major Defensive Counter Air operation in the area around
+856	In an effort to obtain air superiority, air command has initiated an Offensive Counter Air operation targeted at the area around
+857	In an effort to reduce the enemy's ability to repair and supply its forces, air command has initiated an Interdiction operation targeted at the area around
+858	In an effort to reduce the enemy's ground forces in preparation for an attack, air command has initiated an Attrition operation targeted at the area around
+859	In an effort to support our front line ground forces, air command has initiated a major Close Air Support operation in the area around
+890	Be advised: Starting at #0, our ground forces will be making a major push towards #1.
+891	Be advised: Intelligence reports a large enemy offensive is in progress, probably with the intent to take #1.
+900	NOT A PACKAGE MISSION
+901	Maintain local air superiority
+902	Prevent hostile aircraft from entering your station area
+903	NOT A PACKAGE MISSION
+904	NOT A PACKAGE MISSION
+905	NOT A PACKAGE MISSION
+906	Prevent hostile aircraft from passing your ambush area
+907	Destroy as many enemy aircraft as possible
+908	Maintain alert in case of incoming hostile aircraft
+909	Intercept and destroy target
+910	NOT A PACKAGE MISSION
+911	Strike enemy air defense assets
+912	NOT A PACKAGE MISSION
+913	Strike 
+914	Strike 
+915	Strike 
+916	Strike 
+917	Strike 
+918	Bomb 
+919	NOT A PACKAGE MISSION
+920	Close Air Support near 
+921	Close Air Support near 
+922	Attack the 
+923	Search for and destroy enemy targets within station area
+924	Interdict enemy vehicles in the area around 
+925	Search for and destroy enemy ground forces in the area around 
+926	Perform airborne command and control functions
+927	Perform airborne command and control functions for ground troops
+928	Refuel friendly aircraft
+929	Photograph targets at 
+930	NOT A PACKAGE MISSION
+931	Jam enemy radar transmissions
+932	Transport infantry to their drop-off zone, 
+933	Transport supplies to 
+934	Rescue a downed pilot 
+935	Search for enemy submarines
+936	Strike the 
+937	Search for enemy naval assets
+938	Return home
+939	NOT A PACKAGE MISSION
+1000	Mission still in progress.
+1001	No damage to target site.
+1002	Minimal damage to target site.
+1003	Moderate damage to target site.
+1004	Significant damage to target site.
+1005	No damage inflicted to assigned target.
+1006	Minimal damage inflicted to target.
+1007	Moderate damage inflicted to target.
+1008	Heavy damage inflicted to target.
+1010	No damage was inflicted to enemy.
+1011	Only light damage was inflicted to enemy.
+1012	Hit ratio of ordnance was low.
+1013	Moderate damage was inflicted to enemy.
+1015	Target photographed.
+1016	Target not photographed.
+1020	%d loss to enemy aircraft.
+1021	%d losses to enemy aircraft.
+1022	No losses to enemy aircraft.
+1023	Escorted aircraft have not yet arrived at target.
+1024	Escorted aircraft never arrived at target.
+1025	%d loss to enemy AD.
+1026	%d losses to enemy AD.
+1027	No losses to enemy AD.
+1028	Escorted aircraft forced to abort.
+1030	Entire flight was shot down.
+1031	Enemy losses inflicted with no friendly casualties.
+1032	Enemy losses inflicted with moderate casualties.
+1033	Moderate casualties suffered with no enemy losses.
+1034	No losses were inflicted on either side
+1035	Assigned intercept target destroyed.
+1036	Assigned intercept target forced to abort.
+1037	Elements of assigned target were not destroyed.
+1038	Assigned intercept target was not harmed.
+1040	Friendly targets in station area were hit.
+1041	Station time completed with no successful enemy strikes.
+1042	Relieved early after successful defense of station area.
+1043	Relieved early with no successful enemy strikes.
+1046	Station time completed with no critical friendly losses.
+1047	Relieved early with no high value losses.
+1048	Friendly high value asset was destroyed.
+1049	Friendly high value asset sustained losses.
+1050	Friendly high value asset was forced to abort.
+1051	Never arrived at station area.
+1052	Station time completed with no available targets.
+1055	Station time completed.
+1056	Relieved early.
+1057	Station time was not completed.
+1058	Did not remain in station area.
+1060	Mission completed.
+1061	Never arrived at LZ.
+1099	 
+1100	Mission incomplete. Package is still ingressing.
+1101	Mission incomplete. Package is still egressing.
+1102	Mission incomplete.
+1103	Mission incomplete. Station time was not completed.
+1104	Mission still in progress.
+1150	The mission was a success!
+1151	The mission was a decisive victory!
+1152	The mission was a marginal victory.
+1153	The mission was a tie.
+1154	The mission was a stalemate.
+1155	The mission was a marginal defeat.
+1156	The mission was a crushing defeat.
+1157	The mission was a failure.
+1160	100 Iraq pushes into Kuwait City.
+1161	101 Kuwait City captured by Iraq.
+1162	102 The Coalition push into Al Basrah.
+1163	103 Al Basrah captured by the Coalition.
+1164	Iraq has been pushed back to the border.
+1165	The Coalition has been pushed back to the border.
+1166	106 Coalition Forces start a major offensive.
+1167	107 Coalition Forces forced onto the defensive.
+1168	China declares war on South Korea.
+1169	Russia offers support to Iraq.
+1170	NOT IN GAME
+1171	NOT IN GAME
+1172	NOT IN GAME
+1173	113 The Coalition have failed to achieve their goals.
+1174	A peace settlement is reached
+1175	A peace settlement is reached
+1176	116 Iraq surrenders to the Coalition.
+1200	No result.
+1201	The destruction of #DB0 will force the #DB1 to halt it's advance or find an alternate crossing point, relieving some pressure on our defending forces.
+1202	The destruction of #DB0 will hinder the #DB1's movement towards the front, relieving some pressure on friendly troops.
+1203	The #DB0 has taken #0 losses and is withdrawing, largely due to the losses your package inflicted.
+1204	The #DB0 has taken #0 losses and is not likely to be committed in the near future, largely due to the efforts of your package.
+1205	The #DB0 has taken #0 losses and is withdrawing. Friendly forces in the area are holding, for now.
+1206	The #DB0 has taken #0 losses and is retreating, largely due to the losses your package inflicted.
+1207	Enemy forces in your target area appear to have been significantly disrupted.
+1208	The #DB0 has taken #0 losses and is withdrawing, largely due to the efforts of your package.
+1209	S9
+1210	S10
+1211	We successfully transported the #DB1 to their destination. They can now continue with their mission as planned.
+1212	S12
+1213	S13
+1214	Local air superiority was successfully maintained. No friendly targets in your patrol area were damaged.
+1215	We were able to maintain local air superiority. Enemy aircraft in your sweep area were destroyed or otherwise unable to perform their mission.
+1216	The JSTAR aircraft was able to stay on station and successfully detect enemy ground movements.
+1217	The ECM aircraft was able to completely jam #DB1, significantly reducing the enemy's detection capabilities.
+1218	We were able to maintain local air superiority. Enemy aircraft in your sweep area were destroyed or otherwise unable to perform their mission.
+1219	We were able to maintain local air superiority. Enemy aircraft in your sweep area were destroyed or otherwise unable to perform their mission.
+1220	You were able to destroy or chase off all of the assigned interceptors.
+1221	S21
+1222	Local air superiority was successfully maintained. No hostile aircraft penetrated friendly airspace
+1224	We were able to successfully retrieve the downed pilot, largely due to your efforts at clearing the airspace.
+1225	We were able to successfully strike at the enemy's ground forces, largely due to your efforts at clearing the airspace.
+1226	We were able to successfully accomplish the mission objectives, largely due to your efforts at clearing the airspace.
+1227	The tankers were able to stay on station and successfully refuel friendly aircraft.
+1228	S28
+1229	S29
+1230	We've eliminated #DB0 as both a supply and movement route, making life more difficult on the enemy's supply convoys.
+1231	Port facilities at #DB0 have been so badly damaged, we estimate it will be at least a day before any additional supplies can be unloaded.
+1232	Virtually all stored supplies at #DB0 have been destroyed or damaged, eliminating a significant portion of the enemy's supply reserves.
+1233	We successfully destroyed many of the supplies moving through this area.
+1234	S34
+1235	We estimate production at #DB0 has been completely shut down. This will help reduce the amount of war materials and supply available to the enemy.
+1236	We estimate fuel production at #DB0 has been completely shut down. This will largely reduce the enemy's production of fuel.
+1237	Electrical production at #DB0 has completely stopped. Enemy morale, production and communication will all suffer from the loss.
+1238	#DB0 has been completely leveled. Enemy communications and control are bound to suffer.
+1239	The #DB0 has been reduced to #0 percent strength, and will most likely be out of operation for at least a day.
+1240	#DB0 has been completely shut down and will be unable to launch any sorties in the near future.
+1241	#DB0 was heavily damaged, and will most likely be out of operation for several hours.
+1242	S42
+1243	S43
+1244	The AWACS aircraft was able to stay on station and successfully detect and enemy aircraft.
+1245	Our transports were able to successfully reach their destination. The additional supplies will be a much needed help to our ground forces.
+1246	Our transports were able to successfully reach their destination. The additional supplies will be a much needed help to our ground forces.
+1247	Our convoy was able to successfully reach its destination. The additional supplies will be a much needed help to our ground forces.
+1248	Our supply train was able to successfully reach its destination. The additional supplies will be a much needed help to our ground forces.
+1249	Thanks to your package's efforts, Intelligence was able to accurately assess the status of #DB0.
+1250	S50
+1251	S51
+1252	Your efforts have helped clear the way for follow-on strikes.  
+1253	Follow-on strikes planned in this area should have an easier time reaching their targets and suffer fewer losses.
+1254	Reduced enemy air activity in this region will enable follow-on strikes to hit their targets unimpeded.
+1255	S55
+1256	The destruction of #DB0 has measurably aided in the effort to win and maintain air superiority.
+1257	The operation has dealt a significant blow to the enemies' war machine.
+1258	The operation has successfully reduced the enemies' warfighting capabilities in the region.
+1259	S59
+1260	S60
+1261	The #DB0 should no longer pose a threat to friendly forces.
+1262	Not only has the #DB0 been eliminated as a threat to friendly forces, but port operations are also being hampered by the wreckage and collateral damage.
+1263	With the #DB0 destroyed, the enemies' capacity for moving large quantities of supplies into and around the theater of operations has been significantly diminished.
+1300	No result.
+1301	FS1
+1302	FS2
+1303	The #DB0 has taken #0 losses but is continuing to advance, despite the success of your package.
+1304	The #DB0 has taken #0 losses but has not been seriously hampered, despite the success of your package.
+1305	The #DB0 has taken #0 losses but is continuing to push back friendly forces in the area.
+1306	The #DB0 has taken #0 losses but is holding tight, despite the success of your package.
+1307	Despite the success of your package, enemy forces in your target area don't appear to have been significantly disrupted.
+1308	The #DB0 has taken #0 losses but is holding tight, despite the success of your package.
+1309	FS09
+1310	FS10
+1311	FS11
+1312	FS12
+1313	FS13
+1314	FS14
+1315	Despite the success of your package, enemy aircraft in your sweep area were able to get through and perform their mission.
+1316	FS16
+1317	FS17
+1318	Despite the success of your package, enemy aircraft in your sweep area were able to get through and perform their mission.
+1319	Despite the success of your package, enemy aircraft in your sweep area were able to get through and perform their mission.
+1320	FS20
+1321	FS21
+1322	FS22
+1323	FS23
+1324	Despite the success of your package, we were unable to successfully retrieve the downed pilot.
+1325	Despite the success of your package, we were unable to successfully strike at the enemy's ground forces.
+1326	Despite the success of your package, we were unable to successfully accomplish the mission objectives.
+1327	FS27
+1328	FS28
+1329	FS29
+1330	FS30
+1331	FS31
+1332	FS32
+1333	FS33
+1334	FS34
+1335	FS35
+1336	FS36
+1337	FS37
+1338	FS38
+1339	Despite the success of your package, the #DB0 was not seriously damaged, and will most likely be operational within hours.
+1340	Despite the success of your package, #DB0 was not seriously damaged, and will most likely be operational within hours.
+1341	FS41
+1342	FS42
+1343	FS43
+1344	FS44
+1345	FS45
+1346	FS46
+1347	FS47
+1348	FS48
+1349	Although you were able to obtain good photographs, Intelligence no longer needs them.
+1350	FS50
+1351	FS51
+1352	Although your package performed well, enemy air defenses in the area remain strong and will hamper the efforts of planned follow-on strikes.
+1353	Despite effective attacks by your package, enemy DCA aircraft and ground based surveillance systems are still hampering our operations in this area.
+1354	Despite a strong effort on your part, enemy air activity in the area still poses a significant threat to inbound strike packages.
+1355	FS55
+1357	Although your package hit targets at #DB0, the facility remains operational.
+1358	Enemy troops #LN are proving more resilient than expected. Successful strikes in this area have not significantly reduced the enemies' warfighting capability.
+1359	FS59
+1360	FS60
+1361	The damage inflicted by your package appears to have been superficial and easily repaired.
+1362	The damage inflicted by your package appears to have been superficial and easily repaired or replaced.
+1363	Although your attack was successful, Intelligence has downgraded estimates of the importance of the #DB0.
+1400	No result.
+1401	Despite the failure of your package, our forces were able to destroy #DB0 and force the #DB1 to delay it's advance, relieving some pressure on our defending forces.
+1402	Despite the failure of your package, our forces were able to destroy #DB0 and hinder the #DB1's movement towards the front, relieving some pressure on friendly troops.
+1403	Despite the failure of your package, the #DB0 has taken #0 losses and is withdrawing.
+1404	Despite the failure of your package, the #DB0 has taken #0 losses and is not likely to be committed in the near future.
+1405	Despite the failure of your package, the #DB0 has taken #0 losses and is withdrawing, allowing friendly forces in the area to hold on.
+1406	Despite the failure of your package, the #DB0 has taken #0 losses and is retreating.
+1407	Despite the failure of your package, enemy forces in your target area appear to have been significantly disrupted.
+1408	Despite the failure of your package, the #DB0 has taken #0 losses and is withdrawing.
+1409	SF09
+1411	Despite the failure of your package, we successfully transported the #DB1 to their destination. They can now continue with their mission as planned.
+1412	SF12
+1413	SF13
+1414	Despite the failure of your package, no friendly targets in your patrol area were damaged.
+1415	Despite the failure of your package, enemy aircraft in your sweep area were unable to perform their mission.
+1416	SF16
+1417	SF17
+1418	Despite the failure of your package, enemy aircraft in your sweep area were unable to perform their mission.
+1419	Despite the failure of your package, enemy aircraft in your sweep area were unable to perform their mission.
+1420	Despite the failure of your package, friendly aircraft were able to destroy or chase off all of the assigned interceptors.
+1421	SF21
+1422	Despite the failure of your package, no hostile aircraft penetrated friendly airspace
+1423	SF23
+1424	Despite the failure of your package, we were able to successfully retrieve the downed pilot.
+1425	Despite the failure of your package, we were able to successfully strike at the enemy's ground forces.
+1426	Despite the failure of your package, we were able to successfully accomplish the mission objectives.
+1427	SF27
+1428	SF28
+1429	SF29
+1430	Despite the failure of your package, additional assets were able to destroy #DB0, eliminating both a supply and movement route, making life more difficult on the enemy's supply convoys.
+1431	Despite the failure of your package, additional assets were able to destroy the port facilities.
+1432	Despite the failure of your package, additional assets were able to strike #DB0, eliminating a significant portion of the enemy's supply reserves.
+1433	Despite the failure of your package, many of the supplies moving through this area were destroyed by friendly forces.
+1434	SF34
+1435	Despite the failure of your package, additional assets were able to strike #DB0 and completely shut down production. This will help reduce the amount of war materials and supply available to the enemy.
+1436	Despite the failure of your package, additional assets were able to strike #DB0 and completely shut down fuel production. This will largely reduce the enemy's production of fuel.
+1437	Despite the failure of your package, additional assets were able to strike #DB0 and completely shut down electrical production. Enemy morale, production and communication will all suffer from the loss.
+1438	Despite the failure of your package, additional assets were able to strike and completely level #DB0. Enemy communications and control are bound to suffer.
+1439	Despite the failure of your package, the #DB0 has been reduced to #0 percent strength, and will most likely be out of operation for at least a day.
+1440	Despite the failure of your package, additional assets were able to strike #DB0 and completely shut down the base.
+1441	Despite the failure of your package, #DB0 was heavily damaged by other friendly assets, and will most likely be out of operation for several hours.
+1442	SF42
+1443	SF43
+1444	SF44
+1445	Despite the failure of your package, our transports were able to successfully reach their destination.
+1446	Despite the failure of your package, our transports were able to successfully reach their destination.
+1447	Despite the failure of your package, our convoy was able to successfully reach its destination.
+1448	Despite the failure of your package, our supply train was able to successfully reach its destination.
+1449	Although your package failed to obtain photographs of #DB0, other forces operating in the area were able to gather sufficient intel data.
+1450	SF50
+1451	SF51
+1452	Despite your poor showing, other forces were able to suppress enemy air defenses effectively.
+1453	Other allied forces were able to destroy key enemy facilities. Enemy interceptor aircraft and early 4 warning radar should be less of a factor.
+1454	Although your package did little to help, other forces were able to reduce enemy air activity in the area.
+1455	SF55
+1456	Other strikes significantly reduced enemy air power in the area. 
+1457	Although some packages failed to hit their targets, the operation was successful.
+1458	The effort to attrit enemy forces #LN succeeded despite the failure of some packages to hit their assigned targets.
+1459	SF59
+1460	SF60
+1461	Although your package failed to inflict serious damage on the #DB0, other forces were able to sink or cripple key vessels.
+1462	Although your package failed to inflict significant damage on the #DB0, other forces were able to sink or cripple key vessels.
+1463	Although your package failed to inflict significant damage on the #DB0, other forces were able to sink or cripple key vessels.
+1500	No result.
+1501	#DB0 has been left undamaged, allowing the #DB1 to continue it's advance.
+1502	#DB0 has been left undamaged, allowing the #DB1 to continue unhampered.
+1503	Unhindered by your package's attack, the #DB0 is continuing to advance and poses a significant threat to friendly troops in the area.
+1504	The #DB0 was unaffected by your package's efforts.
+1505	Unhindered by your package's attack, the #DB0 is forcing back our defenders and poses a significant threat.
+1506	Unaffected by your package's attack, the #DB0 is holding back our attacking forces and poses a significant roadblock to future advances.
+1507	Enemy forces in your target area appear to have been largely unaffected.
+1508	The #DB0 was unaffected by your package's efforts.
+1509	F9
+1511	The #DB1 never reached it's destination, and will fail to complete it's orders.
+1512	F12
+1513	F13
+1514	Due to the failure of your package, friendly targets in your station area were damaged by enemy aircraft.
+1515	Enemy aircraft in your sweep area were able to get through and complete their missions.
+1516	Our JSTARs aircraft was unable to complete its mission, significantly disrupting intelligence operations theater wide.
+1517	Our ECM aircraft was unable to complete its mission.
+1518	Enemy aircraft in your sweep area were able to get through and complete their missions.
+1519	Enemy aircraft in your sweep area were able to get through and complete their missions.
+1520	Due to your package's failure, your assigned interceptors were able to penetrate friendly airspace and attack our forces.
+1521	F21
+1522	Due to the failure of your package, hostile aircraft were able to penetrate friendly airspace
+1523	F23
+1524	Due to the failure of your package, we were unable to retrieve the downed pilot.
+1525	Due to the failure of your package, we were unable to strike at the enemy's ground forces.
+1526	Due to the failure of your package, we were unable to accomplish the mission objectives.
+1527	Our tanker aircraft were unable to complete their mission, forcing several friendly flights in the area to abort due to lack of fuel.
+1528	F28
+1529	F29
+1530	#DB0 was undamaged, leaving the enemy's supply routes unaffected.
+1531	#DB0 sustained no significant damage, and enemy supplies will continue to be transported through here.
+1532	#DB0 was left undamaged, and no supplies there were eliminated. 
+1533	No losses were inflicted, allowing the enemy to continue to move supplies through this area.
+1534	F34
+1535	No damage was caused, allowing production at #DB0 to continue normally.
+1536	No damage was caused, allowing fuel production at #DB0 to continue unhampered.
+1537	#DB0 was left undamaged, and will continue to supply power to enemy troops and population.
+1538	#DB0 was left undamaged, and will continue to provide command and control for enemy forces.
+1539	The #DB0 was left undamaged and will continue to pose a significant threat to friendly aircraft until we're able to retarget it.
+1540	#DB0 is still fully operational and will need to be retargeted immediately.
+1541	#DB0 is still fully operational and will continue to be a threat to friendly air operations until we're able to retarget it.
+1542	F42
+1543	F43
+1544	Our AWACs aircraft was unable to complete its mission, significantly disrupting air operations theater wide.
+1545	Our transports were unable to reach their destination. We'll be forced to draw on our supply reserves.
+1546	Our transports were unable to reach their destination. We'll be forced to draw on our supply reserves.
+1547	Our convoy was unable to reach its destination. We'll be forced to draw on our supply reserves.
+1548	Our supply train was unable to reach its destination. We'll be forced to draw on our supply reserves.
+1549	The status of #DB0 is still unknown. Additional aircraft will have to be tasked to complete this mission.
+1550	F50
+1551	F51
+1552	With enemy air defenses still intact, planned follow-on strikes will have a much more difficult time hitting their targets and could suffer significantly greater losses.
+1553	With #DB0 still operational, follow-on strikes planned in the area will meet much stiffer resistance than anticipated.
+1554	Enemy air activity in the area remains high and poses a significant threat to inbound strike packages.
+1555	F55
+1556	Enemy air power in the area has not been significantly degraded.
+1557	Despite a large expenditure of effort, enemy war production and shipments to the front continue unabated.
+1558	The operation was a failure. Little significant damage was inflicted on enemy forces.
+1559	F59
+1560	F60
+1561	The #DB0 will continue to hamper friendly operations in the area.
+1562	The #DB0 escaped and will continue to pose a threat to friendly forces.
+1563	The enemy has received a significant quantity of warfighting materials and retains its sealift capacity.
+1600	Hold at 
+1601	Climb to 
+1602	Drop to 
+1605	M
+1606	A
+1650	--
+1651	Takeoff
+1652	Rendezvous with package
+1653	Depart from package
+1654	Tanker station area
+1655	Rearm
+1656	Pick up airmobile troops
+1657	Land
+1658	--
+1659	Contact FAC for vector to target
+1660	Protect package from enemy fighters
+1661	Engage enemy aircraft
+1662	Engage enemy aircraft
+1663	Engage target aircraft
+1664	Attack ground targets
+1665	Attack naval targets
+1666	Find and engage enemy
+1667	Attack target
+1668	Bomb target
+1669	Engage enemy air defenses
+1670	Jam enemy radar
+1671	Photograph target area
+1672	Rescue downed pilot
+1673	Find and destroy submarines
+1674	Refuel friendly aircraft
+1675	Drop off airmobile troops
+1676	Standoff Jam
+1677	--
+1678	--
+1679	--
+1680	Call in ground support
+1690	--
+1691	--
+1692	--
+1693	--
+1694	--
+1695	--
+1696	--
+1697	--
+1698	--
+1699	--
+1700	#1 #2 downed by #3 at #4
+1701	#1 #2 destroyed by #3 at #4
+1702	#0 crashed at #1
+1703	#0 downed by #1 #2 at #3
+1704	#0 downed by #1 at #2
+1705	#0 downed by #3 at #4
+1707	#0 and #1 collided at #2
+1708	#0 collided with #1 #2 at #3
+1709	#0 collided with #1 at #2
+1710	#0 destroyed by debris at #1
+1711	#0 destroyed by bomb at #1
+1712	#0 destroyed by an act of god at #1
+1713	#0 joined as #1#2 at #3
+1714	#0 exited from #1#2 at #3
+1715	#0 ejected at #1
+1716	#0 landed at #1
+1717	#0 violated ATC protocol at #1
+1720	#0 fired at #1@72miss
+1721	#0 released at #1@72miss
+1722	#0hit #1 - damaged
+1723	#0hit #1 - destroyed
+1724	#0 triggered at #1@72no targets
+1725	#0 triggered at #1@72#3 photographed
+1726	@72
+1750	#2 downed by #3 
+1751	#2 destroyed by #3
+1752	#0 crashed
+1753	#0 downed by #2
+1754	#0 downed by #1
+1755	#0 downed by #3
+1757	#0 and #1 collided
+1758	#0 collided with #2
+1759	#0 collided with #1
+1760	#0 destroyed by debris
+1761	#0 destroyed by bomb
+1762	#0 destroyed by an act of god
+1763	#0 entered arena
+1764	#0 left arena
+1765	#0 ejected
+1766	#0 landed
+1767	#0 violated ATC protocol at #1
+1770	#2 fired #0: miss
+1771	#2 released #0: miss
+1772	#0hit #1 - damaged
+1773	#0hit #1 - destroyed
+1798	hit 
+1799	miss
+1800	Elements of the #c0 #DD0 engaged #c1 ground forces #LN.
+1801	#C0 air defenses fired on #c1 aircraft #LN.
+1802	#C0 naval ships fired on #c1 forces #LN.
+1803	#C0 #I0s struck elements of the #c1 #DD1 #LN.
+1804	#C0 #I0s struck #DB1.
+1805	#C0 #I0s engaged #c1 #I1s #LN.
+1806	Elements of the #c0 #DD0 have assaulted #DB1.
+1807	#C0 artillery bombarded #c1 ground forces #LN.
+1810	Elements of the #c0 #DD0 are withdrawing from their position #LN. 
+1811	#C0 naval forces are withdrawing from their station area #LG.
+1812	A #c0 #I0 flight was forced to abort their mission #LN.
+1813	Elements of the #c0 #DD0 have been forced back from #LN.
+1814	The #c0 #DB0 was forced to withdraw from #LN.
+1815	The #c0 #DB0 has halted its attack on #LN.
+1820	The #c0 #DB0 surrendered to enemy forces #LN.
+1821	A #c0 #I0 flight was shot down #LN.
+1822	The #c0 #DB0 was sunk #LG.
+1825	A #c0 #I0 was shot down #LN.
+1830	#DB0 was captured by #c1 forces.
+1831	#DB0 was recaptured by #c1 forces.
+1832	#DB0 was liberated by #c1 forces.
+1840	The #I0 #I1 the #I2.
+1841	declared war on
+1842	escalated against
+1843	declared neutrality with
+1844	announced cooperation with
+1845	has allied with
+1850	#C0 reinforcements have arrived in #LT.
+1860	The campaign is over.
+2000	Cowboy
+2001	Falcon
+2002	Fury
+2003	Lobo
+2004	Panther
+2005	Python
+2006	Serpent
+2007	Shark
+2008	Snake
+2009	Stud
+2010	Viper
+2011	Weasel
+2012	Cobra
+2013	Avenger
+2014	Gypsy
+2015	Claw
+2016	Eagle
+2017	Lion
+2018	Mustang
+2019	Ramrod
+2020	Rapier
+2021	Talon
+2022	Tiger
+2023	Gauntlet
+2024	Banshee
+2025	Blade
+2026	Doom
+2027	Dragon
+2028	Mudhen
+2029	Rocket
+2030	Rumble
+2031	Spade
+2032	Turkey
+2033	Satan
+2034	Bull
+2035	Bulldog
+2036	Buzzard
+2037	Cajun
+2038	Gunhog
+2039	Hog
+2040	Mongo
+2041	Thunder
+2042	Vulture
+2043	Warhog
+2044	Chalis
+2045	Sentry
+2046	Camel
+2047	Canteen
+2048	Diamond
+2049	Texico
+2050	Wagon
+2051	Devil
+2052	Gator
+2053	Hammer
+2054	Phantom
+2055	Smoke
+2056	Vapor
+2057	Voodoo
+2058	Cheetah
+2059	Dart
+2060	Dog
+2061	Fist
+2062	Jackal
+2063	Knight
+2064	Mauler
+2065	Sherpa
+2066	Slick
+2067	Bat
+2068	Tomcat
+2069	Wildcat
+2070	Hornet
+2071	Sting
+2072	Bronco
+2073	Hostage
+2074	Raven
+2075	Angel
+2076	Mack
+2077	Buff
+2078	Blackhawk
+2079	Goblin
+2080	Prowler
+2081	Sparky
+2082	Stingray
+2083	Ghost
+2084	Glass
+2085	Bug
+2086	Zipper
+2087	Scout
+2088	Mako
+2089	Jolly
+2090	Jumbo
+2091	Blood
+2092	Mohawk
+2093	Warhawk
+2094	Specter
+2095	Bone
+2096	Lancer
+2097	Cyborg
+2098	Lightning
+2099	Jump
+2100	Harrier
+2101	Intruder
+2102	Spirit
+2103	Roach
+2104	Buzzsaw
+2105	Cougar
+2106	Dragnet
+2107	Amber
+2108	Argos
+2109	Barrel
+2110	Beast
+2111	Bison
+2112	Blackjack
+2113	Blazer
+2114	Bluebell
+2115	Boxer
+2116	Buckskin
+2117	Caddy
+2118	Charger
+2119	Checker
+2120	Copper
+2121	Crimson
+2122	Dipper
+2123	Dolphin
+2124	Elvis
+2125	Eyeball
+2126	Gamble
+2127	Garbo
+2128	Hawk
+2129	Hawkeye
+2130	Hobby
+2131	Hopper
+2132	Hunter
+2133	Jaguar
+2134	Magnet
+2135	Chowder
+2136	Nighthawk
+2137	Nightmare
+2138	Nightwing
+2139	Poacher
+2140	Ragdoll
+2141	Redtail
+2142	Redwolf
+2143	Rescue
+2144	Rider
+2145	Rooster
+2146	Sawbuck
+2147	Screwbird
+2148	Skyhawk
+2149	Plasma
+2150	Spartan
+2151	Stallion
+2152	Stonecat
+2153	Tempest
+2154	Tracker
+2155	Trojan
+2156	Troll
+2157	Vandal
+2158	Venus
+2159	Viking
+2300	Unassigned
+2301	Col. Hutcheon
+2302	Col. De Best
+2303	Col. Partridge
+2304	Col. Carter
+2305	Col. Morrow
+2306	Col. Perkovac
+2307	Col. Bierling
+2308	Col. Onions
+2309	Col. Laskey
+2310	Col. Kent
+2311	Col. Nelles
+2312	Col. Gagnon
+2313	Col. Thomsen
+2314	Col. Giesselman
+2315	Col. Ingold
+2316	Col. Mulvhill
+2317	Col. Cunningham
+2318	Col. Leach
+2319	Col. Olds
+2320	Maj. Boyington
+2321	Maj. Thorsness
+2322	Maj. Von Richthofen
+2323	Maj. Rickenbacker
+2324	Maj. Gabreski
+2325	Maj. Johnson
+2326	Maj. Preddy
+2327	Maj. Meyer
+2328	Maj. Wetmore
+2329	Maj. Schilling
+2330	Maj. Gentile
+2331	Maj. Christensen
+2332	Maj. Mahurin
+2333	Maj. Duncan
+2334	Maj. Beeson
+2335	Maj. Carlson
+2336	Maj. Eagleston
+2337	Maj. Beckham
+2338	Maj. Godfrey
+2339	Maj. Zemke
+2340	Maj. England
+2341	Maj. Thronell
+2342	Maj. Brown
+2343	Maj. Foy
+2344	Maj. Hofer
+2345	Maj. Anderson
+2346	Maj. Beerbower
+2347	Maj. Blakeslee
+2348	Maj. Peterson
+2349	Maj. Wisner
+2350	Maj. Bradley
+2351	Maj. Goodson
+2352	Maj. Bockhay
+2353	Maj. Powers
+2354	Maj. Carr
+2355	Maj. Emmer
+2356	Maj. Jeffery
+2357	Maj. Straight
+2358	Maj. Yeager
+2359	Maj. Bong
+2360	Maj. McGuire
+2361	Maj. MacDonald
+2362	Maj. Johnson
+2363	Maj. Kearby
+2364	Maj. Robbins
+2365	Maj. Westbrook
+2366	Maj. Lynch
+2367	Maj. Hill
+2368	Maj. Older
+2369	Maj. Herbst
+2370	Maj. Dunham
+2371	Maj. Harris
+2372	Maj. Crag
+2373	Maj. Homer
+2374	Maj. Landers
+2375	Cpt. Foss
+2376	Cpt. Hanson
+2377	Cpt. Walsh
+2378	Cpt. Aldrich
+2379	Cpt. Smith
+2380	Cpt. Carl
+2381	Cpt. Thomas
+2382	Cpt. Swett
+2383	Cpt. Spears
+2384	Cpt. Donahue
+2385	Cpt. Cup
+2386	Cpt. Galer
+2387	Cpt. Morantate
+2388	Cpt. Shaw
+2389	Cpt. Frazier
+2390	Cpt. Everton
+2391	Cpt. Segal
+2392	Cpt. McCampbell
+2393	Cpt. Harris
+2394	Cpt. Valencia
+2395	Cpt. Vraciu
+2396	Cpt. Nooy
+2397	Cpt. Fleming
+2398	Cpt. Baker
+2399	Cpt. Kepford
+2400	Cpt. Stimpson
+2401	Cpt. Hawkins
+2402	Cpt. Wirth
+2403	Cpt. McCuskey
+2404	Cpt. Duncan
+2405	Cpt. Rushing
+2406	Cpt. Strane
+2407	Cpt. Rehm
+2408	Cpt. Twelves
+2409	Cpt. Shirley
+2410	Cpt. Charmichael
+2411	Cpt. Hedrick
+2412	Cpt. Massoner
+2413	Cpt. McWhortter
+2414	Cpt. Kirkwood
+2415	Cpt. Blackburn
+2416	Cpt. O'Hare
+2417	Cpt. Hartmann
+2418	Cpt. Barkhorn
+2419	Cpt. Rall
+2420	Cpt. Kittel
+2421	Cpt. Nowotny
+2422	Cpt. Batz
+2423	Cpt. Rudorffer
+2424	Cpt. Bar
+2425	Cpt. Graff
+2426	Cpt. Ehler
+2427	Cpt. Weissenburger
+2428	Cpt. Philipp
+2429	Cpt. Schuck
+2430	Cpt. Hafner
+2431	Cpt. Lipfert
+2432	Cpt. Krupinski
+2433	Cpt. Hackl
+2434	Cpt. Brendel
+2435	Cpt. Stotz
+2436	Cpt. Kirschner
+2437	Cpt. Brandle
+2438	Cpt. Josten
+2439	Cpt. Stienhoff
+2440	Cpt. Schack
+2441	Cpt. Schmidt
+2442	Cpt. Lang
+2443	Cpt. Galland
+2444	Cpt. Bader
+2445	Cpt. Pattle
+2446	Cpt. Beurling
+2447	Cpt. Caldwell
+2448	Cpt. Peters
+2449	Lt. Hetrick
+2450	Lt. Schmitz
+2451	Lt. Donnelly
+2452	Lt. Stall
+2453	Lt. Knore
+2454	Lt. Niekamp
+2455	Lt. Stammen
+2456	Lt. Whittington
+2457	Lt. Prenger
+2458	Lt. Swisher
+2459	Lt. Liette
+2460	Lt. Glasscoe
+2461	Lt. Goubeaux
+2462	Lt. Gigigandet
+2463	Lt. Braden
+2464	Lt. Weldy
+2465	Lt. Householder
+2466	Lt. Stamper
+2467	Lt. Davis
+2468	Lt. Arnold
+2469	Lt. Fouts
+2470	Lt. Roll
+2471	Lt. Turner
+2472	Lt. Barga
+2473	Lt. McGlinch
+2474	Lt. Risner
+2475	Lt. Schuette
+2476	Lt. Schuh
+2477	Lt. Wherkamp
+2478	Lt. Marshall
+2479	Lt. Mendenhall
+2480	Lt. Grilliot
+2481	Lt. Francis
+2482	Lt. Henry
+2483	Lt. Ratterman
+2484	Lt. Borchers
+2485	Lt. Beasley
+2486	Lt. Strieb
+2487	Lt. Phlipot
+2488	Lt. Shardo
+2489	Lt. Gehle
+2490	Lt. McNeillan
+2491	Lt. Winner
+2492	Lt. Rindler
+2493	Lt. Shappie
+2494	Lt. Strausbaugh
+2495	Lt. Dapore
+2496	Lt. Wourms
+2497	Lt. Kaiser
+2498	Lt. Rhoades
+2499	Lt. Kissinger
+2500	Lt. Subler
+2501	Lt. Luthman
+2502	Lt. Beisner
+2503	Lt. Murphy
+2504	Lt. York
+2505	Lt. Gillmore
+2506	Lt. Knapke
+2507	Lt. Hoellrich
+2508	Lt. Schlater
+2509	Lt. Mumaw
+2510	Lt. Keiser
+2511	Lt. DeMange
+2512	Lt. Leugers
+2513	Lt. Kimmel
+2514	Lt. Hoelscher
+2515	Lt. Yakos
+2516	Lt. Berger
+2517	Lt. Baker
+2518	Lt. Bensman
+2519	Lt. Poeppelman
+2520	Lt. Roush
+2521	Lt. Dammeyer
+2522	Lt. Bohman
+2523	Lt. Magato
+2524	Lt. Magateaux
+2525	Lt. Ahrens
+2526	Lt. Schulze
+2527	Lt. Ausborn
+2528	Lt. Nieport
+2529	Lt. Grieshop
+2530	Lt. Elsas
+2531	Lt. McMaken
+2532	Lt. Campbell
+2533	Lt. Ruhee
+2534	Lt. Pohlman
+2535	Lt. Wagner
+2536	Lt. Richardson
+2537	Lt. Nissonger
+2538	Lt. Wayne
+2539	Lt. Douglas
+2540	Lt. Scott
+2541	Lt. Mitchum
+2542	Lt. Fonda
+2543	Lt. Langenkamp
+2544	Lt. Rethman
+2545	Lt. Schlater
+2546	Lt. Barlage
+2547	Lt. Cooper
+2548	Lt. Ruchty
+2549	Lt. Gorman
+2550	Lt. Reed
+2551	Lt. Pittsenbarger
+2552	Lt. Hassel
+2553	Lt. Pohlman
+2554	Lt. Coons
+2555	Lt. Schellhase
+2556	Lt. Kindell
+2557	Lt. Apple
+2558	Lt. Lawrence
+2559	Lt. Monteban
+2560	Lt. Derr
+2561	Lt. Mills
+2562	Lt. Eilerman
+2563	Lt. Subler
+2564	Lt. Gibson
+2565	Lt. Roberts
+2566	Lt. VonDuhn
+2567	Lt. Mumaw
+2568	Lt. Grisez
+2569	Lt. Moran
+2570	Lt. Peyton
+2571	Lt. Broerman
+2572	Lt. Magateaux
+2573	Lt. Clark
+2574	Lt. Harshbarger
+2575	Lt. Moore
+2576	Lt. Yahle
+2577	Lt. Batten
+2578	Lt. McEldowney
+2579	Lt. Turpen
+2580	Lt. Pearson
+2581	Lt. Schulte
+2582	Lt. Voisard
+2583	Lt. Foister
+2584	Lt. Condon
+2585	Lt. Jackson
+2586	Lt. Schmitz
+2587	Lt. Treon
+2588	Lt. Disalvo
+2589	Lt. Subler
+2590	Lt. Borchers
+2591	Lt. Paulus
+2592	Lt. Voisard
+2593	Lt. Snyder
+2594	Lt. Beisner
+2595	Lt. Reed
+2596	Lt. Bey
+2597	Lt. Moorman
+2598	Lt. Knots
+2599	Lt. Griffith
+2600	Lt. Smith
+2601	Lt. Barakas
+2602	Lt. Murdock
+2603	Lt. Face
+2604	Lt. Knight
+2605	Lt. Duke
+2606	Lt. Electra
+2607	Lt. Heffner
+2608	Lt. Griffey
+2609	Lt. Covert
+2610	Lt. Bortz
+2611	Lt. Higlenberg
+2612	Lt. Thayer
+2613	Lt. VanHorne
+2614	Lt. Moorhead
+2615	Lt. Gault
+2616	Lt. McKinnon
+2617	Lt. McMahon
+2618	Lt. Suhey
+2619	Lt. Payton
+2620	Lt. Dent
+2621	Lt. Hampton
+2622	Lt. Perry
+2623	Lt. McMichael
+2624	Lt. Hartenstine
+2625	Lt. Waechter
+2626	Lt. Marshall
+2627	Lt. Wilson
+2628	Lt. Singletary
+2629	Lt. Richardson
+2630	Lt. Frazier
+2631	Lt. Duerson
+2632	Lt. Fencik
+2633	Lt. Perez
+2634	Lt. Bench
+2635	Lt. Morgan
+2636	Lt. Rose
+2637	Lt. Butkus
+2638	Lt. Lambert
+2639	Lt. Hamm
+2640	Lt. Montana
+2641	Lt. Simpson
+2642	Lt. Blier
+2643	Lt. Swann
+2644	Lt. Stallworth
+2645	Lt. Rice
+2646	Lt. Ditka
+2647	Lt. Phillips
+2648	Lt. Bell
+2649	Lt. Sayers
+2650	Lt. Nurgurski
+2651	Lt. Luckman
+2652	Lt. Unitas
+2653	Lt. Munoz
+2654	Lt. Parker
+2655	Lt. Webster
+2656	Lt. Upshaw
+2657	Lt. Shell
+2658	Lt. Otto
+2659	Lt. Dalby
+2660	Lt. Stabler
+2661	Lt. Tatum
+2662	Lt. Casper
+2663	Lt. Branch
+2664	Lt. Bellitnikoff
+2665	Lt. VenEhgen
+2666	Lt. Young
+2667	Lt. Newsome
+2668	Lt. Eller
+2669	Lt. Page
+2670	Lt. Larson
+2671	Lt. Jones
+2672	Lt. Olson
+2673	Lt. Lundy
+2700	Lt. Greer
+2701	Col. Boruc
+2702	Col. Marshall
+2703	Col. McGovern
+2704	Col. Hutcheon
+2705	Col. Balde
+2706	Col. Caldwell
+2707	Col. Cuthbert
+2708	Maj. Kennedy
+2709	Maj. McManus
+2710	Maj. O'Dea
+2711	Maj. Naylor
+2712	Maj. Pressley
+2713	Maj. Telfer
+2714	Maj. Wilson
+2715	Maj. Ferry
+2716	Maj. Gravesen
+2717	Maj. Jarosik
+2718	Maj. Lawson
+2719	Maj. Lennon
+2720	Maj. Nakamura
+2721	Maj. Sno
+2722	Maj. Beattie
+2723	Maj. Maloney
+2724	Maj. McGeady
+2725	Maj. McGlinchy
+2726	Maj. Miller
+2727	Maj. Quinn
+2728	Maj. Riley
+2729	Maj. Riordan
+2730	Maj. Hesselink
+2731	Maj. Zurawski
+2732	Maj. Strachan
+2733	Cpt. Lemos
+2734	Cpt. Harding
+2735	Cpt. Harden
+2736	Cpt. Barrett
+2737	Cpt. Cooper
+2738	Cpt. Gaines
+2739	Cpt. Preston
+2740	Cpt. Nicol
+2741	Cpt. Barnes
+2742	Cpt. Payne
+2743	Cpt. Ribbons
+2744	Cpt. Ruse
+2745	Cpt. Holmes
+2746	Cpt. Everett
+2747	Cpt. Thomas
+2748	Cpt. Yorke
+2749	Cpt. Burrell
+2750	Cpt. Evans
+2751	Cpt. Fenn
+2752	Cpt. Webb
+2753	Cpt. Harrison
+2754	Cpt. Silk
+2755	Cpt. Hassell
+2756	Cpt. Middleton
+2757	Cpt. Ray
+2758	Cpt. Baker
+2759	Cpt. Willett
+2760	Lt. Viner
+2761	Lt. Waters
+2762	Lt. Strachan
+2763	Lt. Tomlinson
+2764	Lt. Bodman
+2765	Lt. Mulville
+2766	Lt. Driesen
+2767	Lt. Holmes
+2768	Lt. Budden
+2769	Lt. Galley
+2770	Lt. Drury
+2771	Lt. Fraser
+2772	Lt. Tokely
+2773	Lt. Dods
+2774	Lt. McBain
+2775	Lt. Hastings
+2776	Lt. Munro
+2777	Lt. Rankin
+2778	Lt. Morgan
+2779	Lt. Duncan
+2780	Lt. Wyness
+2781	Lt. McAllistair
+2782	Lt. Swayne
+2783	Lt. McSwegan
+2784	Lt. McCaffrey
+2785	Lt. Wilson
+2786	Lt. Sutherland
+2787	Lt. Soane
+2788	Lt. Black
+2789	Lt. Blake
+2790	Lt. Baker
+2791	Lt. Meldrum
+2792	Lt. Millar
+2793	Lt. Bruce
+2794	Lt. Kinnaird
+2795	Lt. Forrest
+2796	Lt. Kaye
+2797	Lt. Ashcroft
+2798	Lt. Butterworth
+2799	Lt. Freeman
+2800	Pl. Solov'ev
+2801	Pl. Matveeva
+2802	Pl. Sevryukova
+2803	Pl. Akopyan
+2804	Pl. Kiselev
+2805	Maj. Yakovlev
+2806	Maj. Ech
+2807	Maj. Andreev
+2808	Maj. Baidukov
+2809	Maj. Gershtein
+2810	Maj. Kozhevnikov
+2811	Maj. Arkhipov
+2812	Maj. Mayatsky
+2813	Maj. Ivan'shin
+2814	Maj. Voinovich
+2815	Maj. Plyushchay
+2816	Maj. Balats
+2817	Kpt. Gasanov
+2818	Kpt. Petrosyan
+2819	Kpt. Gromov
+2820	Kpt. Kabak
+2821	Kpt. Kachikov
+2822	Kpt. Ondreevich
+2823	Kpt. Kositsyn
+2824	Kpt. Tavabilov
+2825	Kpt. Bugrov
+2826	Kpt. Shabashvili
+2827	Kpt. Golovaty
+2828	Kpt. Shipulin 
+2829	Kpt. Bronin
+2830	Kpt. Nabiullin
+2831	Kpt. Gumerov
+2832	Kpt. Shimanov
+2833	Kpt. Kurilny
+2834	Kpt. Jackubov
+2835	Kpt. Lebedev
+2836	Kpt. Pushkaryov
+2837	Kpt. Iwanow
+2838	Lt. Aglyamoff
+2839	Lt. Afanasyev
+2840	Lt. Sherba
+2841	Lt. Gusev
+2842	Lt. Grodzincky
+2843	Lt. Pushkarev
+2844	Lt. Dyatchin
+2845	Lt. Nabiullin
+2846	Lt. Tchekalkin
+2847	Lt. Tolok
+2848	Lt. Bakhtin
+2849	Lt. Shaimardanov
+2850	Lt. Sirazetdinov
+2851	Lt. Spiridonov
+2852	Lt. Tavabilov
+2853	Lt. Batkov
+2854	Lt. Tolstyh
+2855	Lt. Perwushin
+2856	Lt. Lasoukov
+2857	Lt. Lisichkin
+2858	Lt. Melikhov
+2859	Lt. Ismagilov
+2860	Lt. Micheev
+2861	Lt. Bronin
+2862	Lt. Musin
+2863	Lt. Porsev
+2864	Lt. Alekseev
+2865	Lt. Belyakov 
+2866	Lt. Gumerov
+2867	Lt. Hafizov
+2868	Lt. Tazetdinov
+2869	Lt. Ivanov
+2870	Lt. Sabantsev
+2871	Lt. Ylyasow
+2872	Lt. Pirogov
+2873	Lt. Yudichev
+2874	Lt. Akashev
+2875	Lt. Nikitin
+2876	Lt. Sadykov
+2877	Lt. Kurilny
+2878	Lt. Gourier
+2879	Lt. Chepckunov
+2880	Lt. Akkuratov
+2881	Lt. Boldyshev
+2882	Lt. Tsapov
+2883	Lt. Beriev 
+2900	Col. Chang
+2901	Col. Ho
+2902	Col. Kwan
+2903	Col. Lee
+2904	Col. Lin
+2905	Maj. Ma
+2906	Maj. Pei
+2907	Maj. Tan
+2908	Maj. Ting
+2909	Maj. An
+2910	Maj. Chow
+2911	Maj. Wang
+2912	Maj. Wu
+2913	Maj. Yang
+2914	Maj. Huang
+2915	Maj. Chung
+2916	Cpt. Wu
+2917	Cpt. Zhou
+2918	Cpt. Ye
+2919	Cpt. Chu
+2920	Cpt. Zhao
+2921	Cpt. Lu
+2922	Cpt. Sun
+2923	Cpt. Liang
+2924	Cpt. Tang
+2925	Cpt. Dong
+2926	Cpt. Yu
+2927	Cpt. Jiang
+2928	Cpt. Jin
+2929	Cpt. Jia
+2930	Cpt. Tian
+2931	Cpt. Cui
+2932	Cpt. Cheng
+2933	Cpt. Xiao
+2934	Cpt. Pan
+2935	Cpt. Ren
+2936	Cpt. He
+2937	Cpt. Geng
+2938	Cpt. Gong
+2939	Lt. Huo
+2940	Lt. Shen
+2941	Lt. Shang
+2942	Lt. Tong
+2943	Lt. Fu
+2944	Lt. Zhan
+2945	Lt. Min
+2946	Lt. Gu
+2947	Lt. Bian
+2948	Lt. Dong
+2949	Lt. Fei
+2950	Lt. Tu
+2951	Lt. Cong
+2952	Lt. Bao
+2953	Lt. Sui
+2954	Lt. Ai
+2955	Lt. Oin
+2956	Lt. Fu
+2957	Lt. Hua
+2958	Lt. Ning
+2959	Lt. Ran
+2960	Lt. Oi
+2961	Lt. Dai
+2962	Lt. Meng
+2963	Lt. Qu
+2964	Lt. Bi
+2965	Lt. Guan
+2966	Lt. Duan
+2967	Lt. Pu
+2968	Lt. Mu
+2969	Lt. Dong
+2970	Lt. Tu
+2971	Lt. Ning
+2972	Lt. Cong
+2973	Lt. Feng
+2974	Lt. Du
+2975	Lt. Zhong
+2976	Lt. Fang
+2977	Lt. Yao
+2978	Lt. Xu
+2979	Lt. Cheng
+2980	Lt. He
+2981	Lt. Shil
+2982	Lt. Liao
+2983	Lt. Ni
+2984	Lt. Biao
+2985	Lt. Hai
+2986	Lt. Tingfa
+3700	XX
+3701	U.S.
+3702	Coalition
+3703	Kuwait
+3704	Saudi Arabia
+3705	Iran
+3706	Iraq
+3707	Gorn
+3710	XX
+3711	U.S.
+3712	Coalition
+3713	Kuwait
+3714	Saudi Arabia
+3715	Iran
+3716	Iraq
+3717	Gorn
+3800	the
+3803	the
+3806	the
+3809	the
+3812	the
+3815	the
+3820	XX
+3823	XX
+3826	XX
+3829	XX
+3832	XX
+3835	XX
+3840	U.S.
+3843	U.S.
+3846	U.S.
+3849	U.S.
+3852	U.S.
+3855	U.S.
+3860	Coalition
+3863	Coalition
+3866	Coalition
+3869	Coalition
+3872	Coalition
+3875	Coalition
+3880	Kuwaiti
+3883	Kuwaiti
+3886	Kuwaiti
+3889	Kuwaiti
+3892	Kuwaiti
+3895	Kuwaiti
+3900	Saudi
+3903	Saudi
+3906	Saudi
+3909	Saudi
+3912	Saudi
+3915	Saudi
+3920	Iranian
+3923	Iranian
+3926	Iranian
+3929	Iranian
+3932	Iranian
+3935	Iranian
+3940	Iraqi
+3943	Iraqi
+3946	Iraqi
+3949	Iraqi
+3952	Iraqi
+3955	Iraqi
+3960	German
+3961	German
+3962	German
+3964	German
+4000	Mission failed: 
+4001	Mission partial failure: 
+4002	Mission partial success: 
+4003	Mission success: 
+4004	Mission in progress:
+4005	AWACS mission abort:
+4006	%s %s launched %s at %s %s
+4007	%s launched at %s %s
+4008	<unknown>
+4009	Campaign
+4010	Tactical Engagement
+4011	Dogfight
+4012	Instant Action
+4013	Networked %s, %d pilots in team, %d flying
+4014	Local %s
+4015	***DummyAtEnd***ThisIsLastEntry***

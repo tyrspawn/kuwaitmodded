@@ -1,0 +1,228 @@
+// Kuwait Theater - Road to Baghdad scenario
+//
+//
+// Base event file
+//
+// :::::::::::::::::::::::::::::::::::::::::;
+//
+// #TOTAL_EVENTS is a required entry, and
+// should be # of events we have triggers for
+// and code fore 
+// KCK WARNING: KEEP THIS UPDATED!
+//
+#TOTAL_EVENTS 14
+//
+// :::::::::::::::::::::::::::::::::::::::::;
+// 
+// #SET_EVENT will set the activated flag for any
+// events we want to be initially activate
+// ie: Seoul already should be marked as
+// captured in the Pusan parameter scenario
+//
+// This marks the Coalition as initially on the offensive (9) or defensive (10)
+// #SET_EVENT 10
+// If set to 9, CE immediately sets allies on Defensive...?
+//
+// This sets the initial tempo
+#SET_TEMPO 150
+#ENDINIT
+//
+//
+// Starts with a couple news reports about Iraq invading Kuwait, and then Iraq capturing Kuwait City
+// #PLAY_MOVIE does this intentionally
+//
+// :::::::::::::::::::::::::::::::::::::::::;
+// 
+// Now come the individual triggers
+// 
+// Event #1
+// Kuwait being attacked by Iraq forces (two Highway markers in North Kuwait 903 and 1136)
+// 
+#IF_EVENT_PLAYED 1
+#ELSE
+#IF_CONTROLLED 6 O 903 1136 
+#PLAY_MOVIE 100
+#SET_PAK_PRIORITY 6 11 100
+#SET_PAK_PRIORITY 2 11 100
+#CHANGE_PRIORITIES 6 2
+#CHANGE_PRIORITIES 2 1
+#SET_TEMPO 255
+#DO_EVENT 1
+#ENDIF
+#ENDIF
+//
+// Event #2
+// Kuwait City (11) falls/regained
+// 
+#IF_EVENT_PLAYED 2
+#IF_CONTROLLED 2 A 11 7 6
+#SHIFT_INITIATIVE 2 6 50
+#RESET_EVENT 2
+#ENDIF
+#ELSE
+#IF_CONTROLLED 6 A 11 y 6
+#PLAY_MOVIE 101
+#DO_EVENT 2
+#SHIFT_INITIATIVE 6 2 50
+#ENDIF
+#ENDIF
+// 
+// Event #3
+// Basrah (365) being attacked by Coalition forces - Kuwait (11) and Al Jahra (8) secured
+// 
+#IF_EVENT_PLAYED 3
+#ELSE
+#IF_CONTROLLED 2 O 8 11
+#PLAY_MOVIE 102
+#SET_PAK_PRIORITY 6 365 100
+#SET_PAK_PRIORITY 2 365 80
+#SET_PAK_PRIORITY 2 11 25
+#CHANGE_PRIORITIES 6 1
+#CHANGE_PRIORITIES 2 2
+#SET_TEMPO 255
+#DO_EVENT 3
+#ENDIF
+#ENDIF
+// 
+// Event #4
+// Basrah falls/regained Al Basrah (365)
+// 
+#IF_EVENT_PLAYED 4
+#IF_CONTROLLED 6 A 363 364 365
+#SHIFT_INITIATIVE 2 6 50
+#RESET_EVENT 4
+#ENDIF
+#ELSE
+#IF_CONTROLLED 2 A 365
+#PLAY_MOVIE 103
+#SET_PAK_PRIORITY 6 365 100
+#SET_PAK_PRIORITY 2 365 100
+#DO_EVENT 4
+#SHIFT_INITIATIVE 6 2 100
+#ENDIF
+#ENDIF
+//
+// Event #5
+// Iraq advanced beyond border to Al Utayyiq (461), Ras Al Khair (722) WAS King Khalid MC (430), Al Khawwari (727)
+//
+#IF_EVENT_PLAYED 5
+#ELSE
+#IF_EVENT_PLAYED 7
+#ELSE
+#IF_CONTROLLED 6 O 461 722
+#DO_EVENT 5
+#RESET_EVENT 6
+#ENDIF
+#ENDIF
+#ENDIF
+// 
+// Event #6
+// Iraq pushed back to border Rafha (412) Ar Ruqi (417) Kuwait Highway Marker (81)
+// 
+#IF_EVENT_PLAYED 5
+#IF_EVENT_PLAYED 7
+//#PLAY_MOVIE 104
+#DO_EVENT 6
+#RESET_EVENT 5
+#ELSE
+#IF_CONTROLLED 2 A 412 417 81
+#PLAY_MOVIE 104
+#DO_EVENT 6
+#RESET_EVENT 5
+#ENDIF
+#ENDIF
+#ENDIF
+// 
+// Event #7
+// Combined forces advanced beyond border As Salman (369), Jalibah SE AB (60), Al Basrah (365)
+//
+#IF_EVENT_PLAYED 7
+#ELSE
+#IF_EVENT_PLAYED 5
+#ELSE
+#IF_CONTROLLED 2 O 369 60 365
+#DO_EVENT 7
+#RESET_EVENT 8
+#ENDIF
+#ENDIF
+#ENDIF
+// 
+// Event #8
+// Combined forces pushed back to border Rafha (412) Ar Ruqi (417) Kuwait Highway Marker (81)
+// 
+#IF_EVENT_PLAYED 7
+#IF_EVENT_PLAYED 5
+#PLAY_MOVIE 105
+#DO_EVENT 8
+#RESET_EVENT 7
+#ELSE
+#IF_CONTROLLED 6 A 412 417 81
+#PLAY_MOVIE 105
+#DO_EVENT 8
+#RESET_EVENT 7
+#ENDIF
+#ENDIF
+#ENDIF
+// 
+// Event #9
+// Combined forces go on offensive
+// 
+#IF_EVENT_PLAYED 10
+#IF_ON_OFFENSIVE 2
+#PLAY_MOVIE 106
+#DO_EVENT 9
+#RESET_EVENT 10
+#ENDIF
+#ENDIF
+// 
+// Event #10
+// Combined forces go on defensive
+// 
+#IF_EVENT_PLAYED 9
+#IF_ON_OFFENSIVE 6
+#PLAY_MOVIE 107
+#DO_EVENT 10
+#RESET_EVENT 9
+#ENDIF
+#ENDIF
+// 
+// Event #11
+// Bad guys win
+// Basically - King Khalid MC (430), Hafar Al Batin (418), Ad Damman (510)
+//
+//
+#IF_CONTROLLED 6 A 418 510 430
+#PLAY_MOVIE 113
+#DO_EVENT 14
+#END_GAME 14
+#ENDIF
+// 
+// Event #12
+// Stalemate
+// 
+#IF_BORDOM_HOURS 240
+#PLAY_MOVIE 114
+#DO_EVENT 15
+#END_GAME 15
+#ENDIF
+// 
+// Event #13
+// Timeout - You have 10 days to win (or lose) the war
+// 
+#IF_CAMPAIGN_DAY G 10
+#PLAY_MOVIE 115
+#DO_EVENT 16
+#END_GAME 16
+#ENDIF
+// 
+// Event #14
+// Good guys win
+// Basically - Al Basrah (365) Basrah village (364) Al Hayyaniyah (363)
+//
+#IF_CONTROLLED 2 A 363 364 365
+#PLAY_MOVIE 116
+#DO_EVENT 17
+#END_GAME 17
+#ENDIF
+// End
+#ENDSCRIPT

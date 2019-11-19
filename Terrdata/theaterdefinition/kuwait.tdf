@@ -1,0 +1,52 @@
+# Kuwait TDF file
+# shown in the pick list
+name Kuwait
+
+# Title shown on theater page
+desc Kuwait Theater - Tester version 1
+
+# bitmap to display on theater page
+bitmap Add-On Kuwait\Terrdata\theaterdefinition\Kuwait.tga
+
+# in general, you can miss out most of these, and it
+# will use the default, unless another theater changes it
+# so probably best to put in explicitly.
+ 
+# Where the campaign directory is
+campaigndir Add-On Kuwait\Campaign
+
+# where the terrain data is
+terraindir Add-on Kuwait\Terrdata
+
+# where art is loaded from
+artdir Add-on Kuwait\Art
+
+# movies
+moviedir Add-On Kuwait\Movies
+
+# uisounds 
+#uisounddir Add-On Kuwait\Music
+
+# default objects
+objectdir Add-on Kuwait\Terrdata\objects
+
+# misc textures
+misctexdir Terrdata\misctex
+
+# 3d object files
+3ddatadir Add-on Kuwait\Terrdata\objects
+
+# sounds dir
+sounddir Add-on Kuwait\Sounds
+
+# simdata dir
+simdatadir Add-on Kuwait\Sim
+
+# minimum tacan channel
+mintacan 1
+
+# use double resolution 2D UI map
+doubleres2dmap 1
+
+# magnetic declination
+magneticdeclination 0

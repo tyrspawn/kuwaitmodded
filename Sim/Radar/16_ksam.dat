@@ -1,0 +1,71 @@
+Indx 16 - KSAM RADAR - TAR/TTR (USE for AMX Roland simbols 17 and 82)
+Prf 0 (Unused)
+
+CustomSymbolType 3
+
+TimeToLock 1000
+MaxTwstargets 1
+Timeskillfactor 100
+
+Timetosearch1 5000
+Timetosearch2 5000
+Timetosearch3 5000
+Timetoacuire 1000
+Timetoguide 1000
+
+Timetocoast 500
+
+Rangetosearch1 84272
+Rangetosearch2 84272
+Rangetosearch3 84272
+Rangetoacuire 64272
+Rangetoguide 60272
+
+Sweeptimesearch1 1000
+Sweeptimesearch2 1000
+Sweeptimesearch3 1000
+Sweeptimeacuire 1000
+Sweeptimeguide 1000
+
+Sweeptimecoast 1000
+
+Rwrsoundsearch1 212
+Rwrsoundsearch2 212
+Rwrsoundsearch3 212
+Rwrsoundacuire 212
+Rwrsoundguide 212
+
+Rwrsymbolsearch1 17
+Rwrsymbolsearch2 17
+Rwrsymbolsearch3 17
+Rwrsymbolacuire 82
+Rwrsymbolguide 82
+
+Bandsearch1 E
+Bandsearch2 E
+Bandsearch3 E
+Bandacuire F
+Bandguide J
+
+Typesearch1 D
+Typesearch2 D
+Typesearch3 D
+Typeacuire D
+Typeguide D
+
+TrackWarning 1
+LaunchWarning 1
+
+AirFireRate 3000
+Maxmissilesintheair 2
+
+AverageSpeed 1500
+MaxAngleDiffTws 0.0
+MaxRangeDiffTws 0.0
+MaxAngleDiffSam 0.0
+MaxRangeDiffSam 0.0
+MaxNctrRange 0
+NctrDelta 0
+
+MinEngagementAlt 656
+MinEngagementRange 1640

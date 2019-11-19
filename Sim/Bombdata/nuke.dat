@@ -1,0 +1,6 @@
+#version 1.0
+#author BoneDust
+0 # Data Format Version
+# particle sys 
+psFeatureImpact _BLU-60
+psBombImpact _BLU-60

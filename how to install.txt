@@ -1,0 +1,7 @@
+1. Open the text file theater.lst which is found in your ..\Falcon BMS 4\Data\Terrdata\theaterdefinition directory.
+
+2. Add the line to the bottom of the list.
+
+Add-On Kuwait\Terrdata\theaterdefinition\kuwait.tdf
+
+3. Save the text file, start Falcon4 BMS 4, select Kuwait Theater from the list of available theaters.

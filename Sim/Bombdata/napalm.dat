@@ -1,0 +1,7 @@
+#version 1.0
+#author Ratty/MRivers/BoneDust
+0 # Data Format Version
+# Data
+# particle sys 
+psFeatureImpact $NAPALM
+psBombImpact $NAPALM

@@ -1,0 +1,218 @@
+# JP ATC FILE 
+# Modified Nov 18th by Red Dog (conv from Nm to m)
+# Campid # This is Seoul airport
+#
+277
+#
+# Nbr Runway
+#
+4
+#
+0 # forcecloserVFR: "0" normal pattern, "1" short pattern , base mandatory 
+#
+450 #MIN ILS CLOSURE VISIBILITY
+#
+488 #MIN ILS CLOSURE CLOUD ELEVATION
+# 
+1400 #MIN GO ILS VISIBILITY
+#
+951 #MIN GO ILS CLOUD ELEVATION
+# 
+############
+# RUNWAY "0" 009 
+###########
+#
+#
+0 #DB runway Nbr
+#
+9 # Heading
+#
+1 #Has base approach
+#
+0 #Has final approach
+#
+# Overhead -1 is Left, 1 is right
+-1
+#
+# FINAL
+7 0 2000 1
+#
+###########
+# BASE 
+#
+# SAY BASE 0 "no", 1 "Right" , 2 "Left"
+0
+# BASE PT
+#
+10 0 2800 1
+#
+# ENTRY PT 
+#
+12.8 -2.25 3700 1
+#
+# HOLD PT
+8.35 -9.95 6000 1
+#
+# LOITER -1 is Left, 1 is right
+-1
+#
+###########
+# LONG 
+#
+# ENTRY
+0 0 0 0
+#
+# HOLDING
+0 0 0 0
+#
+# LOITER -1 is Left, 1 is right
+-1
+#
+###########
+# RUNWAY "0" - 189
+###########
+#
+#
+0 #DB runway Nbr
+#
+189 # Heading
+#
+1 #Has base approach
+#
+0 #Has Long approach
+#
+# Overhead -1 is Left, 1 is right
+1
+#
+# FINAL
+7 0 2000 1
+#
+###########
+# BASE 
+#
+# SAY BASE 0 "no", 1 "Right" , 2 "Left"
+0
+# BASE PT
+#
+10 0 2800 1
+#
+# ENTRY PT
+#
+12.8 2.25 3700 1
+#
+# HOLD PT
+9.95 8.35 6000 1
+#
+# LOITER -1 is Left, 1 is right
+-1
+#
+###########
+# LONG 
+#
+# ENTRY
+0 0 0 0
+#
+# HOLDING
+0 0 0 0
+#
+# LOITER -1 is Left, 1 is right
+-1
+#
+############
+# RUNWAY "1" - 180 
+###########
+#
+#
+1 #DB runway Nbr
+#
+180 # Heading
+#
+1 #Has base approach
+#
+0 #Has final approach
+#
+# Overhead -1 is Left, 1 is right
+-1
+#
+# FINAL
+7 0 2000 1
+#
+###########
+# BASE 
+#
+# SAY BASE 0 "no", 1 "Right" , 2 "Left"
+0
+#
+10 0 2800 1
+#
+# ENTRY PT
+#
+12.8 2.25 3700 1
+#
+# HOLD PT
+8.35 9.95 6000 1
+#
+# LOITER -1 is Left, 1 is right
+-1
+#
+###########
+# LONG 
+#
+# ENTRY
+0 0 0 0
+#
+# HOLDING
+0 0 0 0
+#
+# LOITER -1 is Left, 1 is right
+-1
+#
+###########
+# RUNWAY "1" 360
+###########
+#
+#
+1 #DB runway Nbr
+#
+0 # Heading
+#
+1 #Has base approach
+#
+0 #Has Long approach
+#
+# Overhead -1 is Left, 1 is right
+1
+#
+# FINAL
+7 0 2000 1
+#
+###########
+# BASE 
+#
+# SAY BASE 0 "no", 1 "Right" , 2 "Left"
+0
+# BASE PT
+#
+10 0 2800 1
+# ENTRY PT
+#
+12.8 -2.25 3700 1
+#
+# HOLD PT
+9.96 -8.35 6000 1
+#
+# LOITER -1 is Left, 1 is right
+-1
+#
+###########
+# LONG 
+#
+# ENTRY
+0 0 0 0
+#
+# HOLDING
+0 0 0 0
+#
+# LOITER -1 is Left, 1 is right
+-1
+#

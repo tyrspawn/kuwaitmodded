@@ -1,0 +1,118 @@
+# JP ATC FILE 
+# Modified Nov 18th by Red Dog (conv from Nm to m)
+# Campid # This is Kimhae airbase
+#
+2239
+#
+# Nbr Runway
+#
+2
+# 
+0 # forcecloserVFR: "0" normal pattern, "1" short pattern , base mandatory 
+# 
+500 #MIN IFR VISIBILITY
+#
+219 #MIN IFR CLOUD ELEVATION
+#
+2000 #MIN VFR VISIBILITY
+#
+689 #MIN VFR CLOUD ELEVATION
+#
+############
+# RUNWAY "0" - 340
+###########
+#
+#
+0 #DB runway Nbr
+#
+340 # Heading 
+#
+1 #Has base approach
+#
+0 #Has long approach
+#
+# Overhead -1 is Left, 1 is right
+1
+#
+# FINAL
+7 0 2000 1
+#
+###########
+# BASE 
+#
+# SAY BASE 0 "no", 1 "Right" , 2 "Left"
+0
+# BASE PT
+#
+12 0 3000 1
+# ENTRY PT
+#
+13.78 2.43 4000 1
+#
+# HOLD PT
+8 0 5000 1
+#
+# LOITER -1 is Left, 1 is right
+1
+#
+###########
+# LONG 
+#
+# ENTRY
+0 0 0 0
+#
+# HOLDING
+0 0 0 0
+#
+# LOITER -1 is Left, 1 is right
+1
+#
+###########
+# RUNWAY "0" - 160
+###########
+#
+#
+0 #DB runway Nbr
+#
+160 # Heading 
+#
+1 #Has base approach
+#
+0 #Has final approach
+#
+# Overhead -1 is Left, 1 is right
+-1
+#
+# FINAL
+4 0 850 1
+#
+###########
+# BASE 
+#
+# SAY BASE 0 "no", 1 "Right" , 2 "Left"
+0
+# BASE PT
+#
+4.26 -2.71 2100 1
+# ENTRY PT
+#
+5.53 -5.43 3000 1
+#
+# HOLD PT
+6.8 -8.15 6000 1
+#
+# LOITER -1 is Left, 1 is right
+1
+#
+###########
+# LONG 
+#
+# ENTRY PT
+0 0 0 0
+#
+# HOLDING PT
+0 0 0 0
+#
+# LOITER -1 is Left, 1 is right
+1
+#

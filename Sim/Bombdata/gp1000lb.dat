@@ -1,0 +1,6 @@
+#version 1.0
+#author Ratty/MRivers
+0 # Data Format Version
+# particle sys 
+psFeatureImpact _GP1000lb
+psBombImpact _GP1000lb
