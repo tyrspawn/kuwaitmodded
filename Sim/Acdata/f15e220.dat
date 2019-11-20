@@ -892,7 +892,7 @@ avionicsCanUseSpice 0
 avionicsJDAMAvionicsType 1 #uri_ba 07/03/2015
 avionicsDiffICPStyle 0
 avionicsMLUPFL 1
-avionicsDatalink 2
+avionicsDatalink 1
 avionicsDLCursorAsWaypoint 0
 avionicsDteIdmLabel 0
 avionicsHudLadderTapeType 0

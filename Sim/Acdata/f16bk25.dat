@@ -1466,7 +1466,7 @@ avionicsCanUseSpice 0
 avionicsJDAMAvionicsType 0
 avionicsDiffICPStyle 0
 avionicsMLUPFL 0
-avionicsDatalink 3
+avionicsDatalink 1
 avionicsDLCursorAsWaypoint 0
 avionicsDteIdmLabel 0
 avionicsHudLadderTapeType 1

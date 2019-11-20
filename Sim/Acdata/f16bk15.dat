@@ -1,4 +1,4 @@
-# Title: F-16A Block15 (F100-PW-200)
+P# Title: F-16A Block15 (F100-PW-200)
 # Author: Raptor & Mav-jp 10/18/2004
 # Revision: Flight Model Manager ver:1.7.3.54 Date: 2/17/2019 11:44:36 PM
 #-----------------------------------------------------
@@ -1463,7 +1463,7 @@ avionicsCanUseSpice 0
 avionicsJDAMAvionicsType 0
 avionicsDiffICPStyle 0
 avionicsMLUPFL 0
-avionicsDatalink 3
+avionicsDatalink 1
 avionicsDLCursorAsWaypoint 0
 avionicsDteIdmLabel 0
 avionicsHudLadderTapeType 2
