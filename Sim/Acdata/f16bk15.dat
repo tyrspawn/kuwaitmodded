@@ -1463,7 +1463,7 @@ avionicsCanUseSpice 0
 avionicsJDAMAvionicsType 0
 avionicsDiffICPStyle 0
 avionicsMLUPFL 0
-avionicsDatalink 1
+avionicsDatalink 3
 avionicsDLCursorAsWaypoint 0
 avionicsDteIdmLabel 0
 avionicsHudLadderTapeType 2
@@ -1493,7 +1493,7 @@ avionicsMMCUpgrade 0
 avionicsEGIUpgrade 0
 avionicsDigitalFLCS 0
 avionicsRWRType 2
-avionicsGunEEGSMode 1
+avionicsGunEEGSMode 0
 avionicsGunSSLCMode 1
 avionicsGunLCOSMode 1
 avionicsGunSNAPMode 1
