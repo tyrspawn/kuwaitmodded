@@ -39003,12 +39003,11 @@
         <FuelRate>100</FuelRate>
         <PtDataIdx>0</PtDataIdx>
         <RoleScore_0>10</RoleScore_0>
-        <RoleScore_1>80</RoleScore_1>
-        <RoleScore_3>70</RoleScore_3>
-        <RoleScore_4>80</RoleScore_4>
-        <RoleScore_7>5</RoleScore_7>
-        <RoleScore_9>5</RoleScore_9>
-        <RoleScore_10>50</RoleScore_10>
+        <RoleScore_1>60</RoleScore_1>
+        <RoleScore_3>30</RoleScore_3>
+        <RoleScore_4>50</RoleScore_4>
+        <RoleScore_5>20</RoleScore_5>
+        <RoleScore_10>20</RoleScore_10>
         <MainRole>0</MainRole>
         <Hit_NoMove>70</Hit_NoMove>
         <Hit_Foot>50</Hit_Foot>
@@ -39177,12 +39176,10 @@
         <Fuel>7162</Fuel>
         <FuelRate>100</FuelRate>
         <PtDataIdx>0</PtDataIdx>
-        <RoleScore_0>10</RoleScore_0>
-        <RoleScore_1>50</RoleScore_1>
+        <RoleScore_1>10</RoleScore_1>
         <RoleScore_3>70</RoleScore_3>
-        <RoleScore_4>40</RoleScore_4>
-        <RoleScore_7>5</RoleScore_7>
-        <RoleScore_9>5</RoleScore_9>
+        <RoleScore_4>50</RoleScore_4>
+        <RoleScore_10>20</RoleScore_10>
         <MainRole>0</MainRole>
         <Hit_NoMove>70</Hit_NoMove>
         <Hit_Foot>50</Hit_Foot>
@@ -39353,14 +39350,11 @@
         <Fuel>7162</Fuel>
         <FuelRate>100</FuelRate>
         <PtDataIdx>0</PtDataIdx>
-        <RoleScore_0>10</RoleScore_0>
-        <RoleScore_1>40</RoleScore_1>
-        <RoleScore_3>70</RoleScore_3>
+        <RoleScore_1>10</RoleScore_1>
+        <RoleScore_3>50</RoleScore_3>
         <RoleScore_4>50</RoleScore_4>
-        <RoleScore_7>5</RoleScore_7>
-        <RoleScore_9>5</RoleScore_9>
-        <RoleScore_10>10</RoleScore_10>
-        <RoleScore_15>5</RoleScore_15>
+        <RoleScore_5>25</RoleScore_5>
+        <RoleScore_10>30</RoleScore_10>
         <MainRole>3</MainRole>
         <Hit_NoMove>70</Hit_NoMove>
         <Hit_Foot>50</Hit_Foot>
@@ -42117,11 +42111,10 @@
         <FuelRate>100</FuelRate>
         <PtDataIdx>0</PtDataIdx>
         <RoleScore_0>10</RoleScore_0>
-        <RoleScore_1>80</RoleScore_1>
+        <RoleScore_1>10</RoleScore_1>
         <RoleScore_3>70</RoleScore_3>
         <RoleScore_4>80</RoleScore_4>
-        <RoleScore_7>5</RoleScore_7>
-        <RoleScore_9>5</RoleScore_9>
+        <RoleScore_5>25</RoleScore_5>
         <RoleScore_10>50</RoleScore_10>
         <MainRole>0</MainRole>
         <Hit_NoMove>70</Hit_NoMove>
