@@ -4435,8 +4435,7 @@
         <WpnIdx_17>281</WpnIdx_17>
         <WpnIdx_18>371</WpnIdx_18>
         <WpnIdx_19>372</WpnIdx_19>
-        <WpnIdx_20>127</WpnIdx_20>
-        <WpnIdx_21>122</WpnIdx_21>
+        <WpnIdx_20>122</WpnIdx_20>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>1</WpnCount_2>
@@ -4458,7 +4457,6 @@
         <WpnCount_18>1</WpnCount_18>
         <WpnCount_19>1</WpnCount_19>
         <WpnCount_20>1</WpnCount_20>
-        <WpnCount_21>1</WpnCount_21>
     </WLD>
     <WLD Num="186">
         <Name>Su-17 3/6</Name>
