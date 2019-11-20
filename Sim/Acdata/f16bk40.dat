@@ -1557,7 +1557,7 @@ avionicsCanUseSpice 0
 avionicsJDAMAvionicsType 0
 avionicsDiffICPStyle 0
 avionicsMLUPFL 0
-avionicsDatalink 2
+avionicsDatalink 3
 avionicsDLCursorAsWaypoint 0
 avionicsDteIdmLabel 0
 avionicsHudLadderTapeType 0
@@ -1580,17 +1580,17 @@ avionicsRadarJamChevrons 1
 avionicsRadarVsMode 1
 avionicsRadarLrsMode 1
 avionicsRadarUlsMode 1
-avionicsColorMfd 1
+avionicsColorMfd 0
 avionicsGrayScaleGM 1
 avionicsActivateMFDBoot 1 #uri_ba 12/07/2015
 avionicsMMCUpgrade 1
 avionicsEGIUpgrade 1
 avionicsDigitalFLCS 1
 avionicsRWRType 1
-avionicsGunEEGSMode 1
-avionicsGunSSLCMode 0
-avionicsGunLCOSMode 0
-avionicsGunSNAPMode 0
+avionicsGunEEGSMode 0
+avionicsGunSSLCMode 1
+avionicsGunLCOSMode 1
+avionicsGunSNAPMode 1
 avionicsEngineType 2
 avionicsMfdCataSymbolAim120 0
 avionicsHudOldBAIType 0
