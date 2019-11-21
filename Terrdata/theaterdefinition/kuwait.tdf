@@ -19,13 +19,13 @@ campaigndir Add-On Kuwait\Campaign
 terraindir Add-on Kuwait\Terrdata
 
 # where art is loaded from
-artdir Add-on Kuwait\Art
+artdir Add-on Kuwait
 
 # movies
-moviedir Add-On Kuwait\Movies
+moviedir Add-On Kuwait
 
 # uisounds 
-#uisounddir Add-On Kuwait\Music
+uisounddir Add-On Kuwait
 
 # default objects
 objectdir Add-on Kuwait\Terrdata\objects
