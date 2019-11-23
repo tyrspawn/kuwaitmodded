@@ -50,3 +50,6 @@ doubleres2dmap 1
 
 # magnetic declination
 magneticdeclination 0
+
+# ckptart dir
+cockpitdir Add-On Kuwait\art\ckptart
