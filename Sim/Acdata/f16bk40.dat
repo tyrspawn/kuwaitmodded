@@ -1560,8 +1560,8 @@ avionicsMLUPFL 0
 avionicsDatalink 1
 avionicsDLCursorAsWaypoint 0
 avionicsDteIdmLabel 0
-avionicsHudLadderTapeType 0
-avionicsHudVAHTapeType 0
+avionicsHudLadderTapeType 2
+avionicsHudVAHTapeType 2
 avionicsHudDGFTDefaultMode 1
 avionicsDGFTMasterModeLabelOnHud 0
 avionicsDGFTAttitudeAwareness 1
@@ -1569,7 +1569,7 @@ avionicsMLUM2TAOnHUD 1
 avionicsHudAATargetAspectAngle 1
 avionicsHudOlderMasterModeWindow 0
 avionicsNewAMRAAMdlz 1
-avionicsBullseyeOnHud 1
+avionicsBullseyeOnHud 0
 avionicsDEDHudRepeaterBlanksOnDGFT 1
 avionicsHudNavDeclutterEnabled 1
 avionicsHudNavSpdAltTapesLag 0
