@@ -1,3 +1,12 @@
 Terrdata/Objects/FE_Backup/*
 Campaign/Auto Save.*
-Campaign/tmp.*
+Campaign/*.cam
+Campaign/*.fmap
+Campaign/*.frc
+Campaign/*.his
+Campaign/*.iff
+Campaign/*.ini
+Campaign/*.twx
+!Campaign/save0*
+!Campaign/save1*
+!Campaign/save2*
