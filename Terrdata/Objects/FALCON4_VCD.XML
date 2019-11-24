@@ -2665,7 +2665,7 @@
     <VCD Num="36">
         <CtIdx>160</CtIdx>
         <HitPoints>64</HitPoints>
-        <Flags>1611465728</Flags>
+        <Flags>1074529280</Flags>
         <Name>F-15C</Name>
         <NCTR>F15</NCTR>
         <RadarCs>1.324960</RadarCs>
@@ -30007,7 +30007,7 @@
     <VCD Num="394">
         <CtIdx>2464</CtIdx>
         <HitPoints>60</HitPoints>
-        <Flags>1611400192</Flags>
+        <Flags>1074529280</Flags>
         <Name>F-16CM-52</Name>
         <NCTR>F16</NCTR>
         <RadarCs>1.000000</RadarCs>
@@ -30277,7 +30277,7 @@
     <VCD Num="397">
         <CtIdx>2467</CtIdx>
         <HitPoints>60</HitPoints>
-        <Flags>1611400192</Flags>
+        <Flags>1074529280</Flags>
         <Name>F-16CM-50</Name>
         <NCTR>F16</NCTR>
         <RadarCs>1.000000</RadarCs>
