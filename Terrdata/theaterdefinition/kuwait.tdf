@@ -1,46 +1,46 @@
 # Kuwait TDF file
 # shown in the pick list
-name Kuwait
+name Kuwait UOAF
 
 # Title shown on theater page
-desc Kuwait Theater - Tester version 1
+desc UOAF Kuwait Theater 1.0.1
 
 # bitmap to display on theater page
-bitmap Add-On Kuwait\Terrdata\theaterdefinition\Kuwait.tga
+bitmap Add-On Kuwait UOAF\Terrdata\theaterdefinition\Kuwait.tga
 
 # in general, you can miss out most of these, and it
 # will use the default, unless another theater changes it
 # so probably best to put in explicitly.
  
 # Where the campaign directory is
-campaigndir Add-On Kuwait\Campaign
+campaigndir Add-On Kuwait UOAF\Campaign
 
 # where the terrain data is
-terraindir Add-on Kuwait\Terrdata
+terraindir Add-On Kuwait UOAF\Terrdata
 
 # where art is loaded from
-artdir Add-on Kuwait
+artdir Add-On Kuwait UOAF
 
 # movies
-moviedir Add-On Kuwait
+moviedir Add-On Kuwait UOAF
 
 # uisounds 
-uisounddir Add-On Kuwait
+uisounddir Add-On Kuwait UOAF
 
 # default objects
-objectdir Add-on Kuwait\Terrdata\objects
+objectdir Add-On Kuwait UOAF\Terrdata\objects
 
 # misc textures
 misctexdir Terrdata\misctex
 
 # 3d object files
-3ddatadir Add-on Kuwait\Terrdata\objects
+3ddatadir Add-On Kuwait UOAF\Terrdata\objects
 
 # sounds dir
-sounddir Add-on Kuwait\Sounds
+sounddir Add-On Kuwait UOAF\Sounds
 
 # simdata dir
-simdatadir Add-on Kuwait\Sim
+simdatadir Add-On Kuwait UOAF\Sim
 
 # minimum tacan channel
 mintacan 1
@@ -52,4 +52,4 @@ doubleres2dmap 1
 magneticdeclination 0
 
 # ckptart dir
-cockpitdir Add-On Kuwait\art\ckptart
+cockpitdir Add-On Kuwait UOAF\art\ckptart
