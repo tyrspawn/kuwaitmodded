@@ -1569,14 +1569,14 @@ avionicsMLUM2TAOnHUD 1
 avionicsHudAATargetAspectAngle 1
 avionicsHudOlderMasterModeWindow 0
 avionicsNewAMRAAMdlz 1
-avionicsBullseyeOnHud 0
+avionicsBullseyeOnHud 1
 avionicsDEDHudRepeaterBlanksOnDGFT 1
 avionicsHudNavDeclutterEnabled 1
 avionicsHudNavSpdAltTapesLag 0
 avionicsZenithNadirOnHud 1
 avionicsGhostHorizonAwareness 1
-avionicsEPAFRadarCues 1
-avionicsRadarJamChevrons 1
+avionicsEPAFRadarCues 0
+avionicsRadarJamChevrons 0
 avionicsRadarVsMode 1
 avionicsRadarLrsMode 1
 avionicsRadarUlsMode 1
