@@ -1859,8 +1859,6 @@
     </WLD>
     <WLD Num="83">
         <Name>F-16 CCIP 5R</Name>
-        <WpnIdx_0>180</WpnIdx_0>
-        <WpnCount_0>1</WpnCount_0>
     </WLD>
     <WLD Num="84">
         <Name>F-4G 1/9</Name>
