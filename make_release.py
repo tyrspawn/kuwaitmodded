@@ -33,8 +33,7 @@ def deleteFolderAndFiles(path):
 deleteFolderAndFiles(tempWorkingDirRoot)
 
 print ("git clone starting...")
-# Had to do this because git clone is throwing access denied without it, probably due to a race condition with rmtree
-time.sleep(2)
+time.sleep(2) # Had to do this because git clone is throwing access denied without it, probably due to a race condition with rmtree
 Repo.clone_from("https://github.com/tyrspawn/kuwaitmodded", tempWorkingDir)
 print("git clone done")
 
@@ -46,7 +45,7 @@ def get_theater_version():
         for line in tdf:
             if line.startswith('desc'):
                 version_token = line.split()[-1].strip()
-                print (version_token)
+                print ("Preparing version ", version_token)
                 return version_token
     raise ValueError("Version not found in theater")
 
@@ -62,7 +61,7 @@ for file in blackListFiles:
 # delete .git dir from working dir
 deleteFolderAndFiles(os.path.join(tempWorkingDir,".git"))
 
-print ("Starting zip archive to ", os.path.dirname(".."))
+print ("Starting zip archive to ", os.path.dirname(os.path.abspath(__file__ + "/..")))
 shutil.make_archive((os.path.join('..', 'Kuwait UOAF.{}'.format(ver))), 'zip', tempWorkingDirRoot)
 print ("Finished archive")
 
