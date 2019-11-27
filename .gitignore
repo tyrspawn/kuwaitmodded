@@ -10,3 +10,4 @@ Campaign/*.twx
 !Campaign/save0*
 !Campaign/save1*
 !Campaign/save2*
+client_secrets.json
