@@ -3,7 +3,7 @@
 name Kuwait UOAF
 
 # Title shown on theater page
-desc UOAF Kuwait Theater 1.0.1
+desc UOAF Kuwait Theater 1.0.2
 
 # bitmap to display on theater page
 bitmap Add-On Kuwait UOAF\Terrdata\theaterdefinition\Kuwait.tga
