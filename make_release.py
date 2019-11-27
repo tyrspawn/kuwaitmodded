@@ -7,8 +7,8 @@ import time
 import stat
 from git import Repo
 
-tempWorkingDir = "../repoCheckOutTemp"
-
+tempWorkingDir = "../repoCheckOutTemp/Add-On Kuwait UOAF"
+tempWorkingDirRoot = "../repoCheckOutTemp/"
 '''
 Error handler function
 It will try to change file permission and call the calling function again,
@@ -23,17 +23,23 @@ def handleError(func, path, exc_info):
        # call the calling function again
        func(path)
 
-try:
-    print("Trying to delete working dir")
-    shutil.rmtree(tempWorkingDir, ignore_errors=False, onerror=handleError)
-except OSError as e:
-    print ("Error: %s - %s." % (e.filename, e.strerror))
+def deleteFolderAndFiles(path):
+    try:
+        print("Trying to delete ",path)
+        shutil.rmtree(path, ignore_errors=False, onerror=handleError)
+    except OSError as e:
+        print ("Error: %s - %s." % (e.filename, e.strerror))    
+
+deleteFolderAndFiles(tempWorkingDirRoot)
 
 print ("git clone starting...")
 # Had to do this because git clone is throwing access denied without it, probably due to a race condition with rmtree
 time.sleep(2)
 Repo.clone_from("https://github.com/tyrspawn/kuwaitmodded", tempWorkingDir)
 print("git clone done")
+
+#copy readme.md to working dir root
+shutil.copyfile(os.path.join(tempWorkingDir, "README.md"), os.path.join(tempWorkingDirRoot, "README.md"))
 
 def get_theater_version():
     with open(os.path.join(tempWorkingDir, 'TerrData', 'theaterdefinition', 'kuwait.tdf'), 'r') as tdf:
@@ -44,27 +50,20 @@ def get_theater_version():
                 return version_token
     raise ValueError("Version not found in theater")
 
-def zipdir(path, ziph):
-    # ziph is zipfile handle
-    for root, _, files in os.walk(path):
-        for file in files:
-            if not file.startswith('.git') and not file.endswith('.py'):
-                filesystem_path = os.path.normpath(os.path.join(root, file))
-                if filesystem_path.startswith('.git'):
-                    continue
-                
-                archive_path = os.path.join('Add-On Kuwait UOAF', filesystem_path)
-                print(filesystem_path)
-                ziph.write(filesystem_path, arcname=archive_path)
-    ziph.write('README.md')
+ver = get_theater_version()
 
-if __name__ == '__main__':
-    ver = get_theater_version()
-    with zipfile.ZipFile(os.path.join('..', 'Kuwait UOAF.{}.zip'.format(ver)), 'w', zipfile.ZIP_DEFLATED) as zipf:
-        zipdir(tempWorkingDir, zipf)
-        try:
-            print("Try deleting working dir")
-            shutil.rmtree(tempWorkingDir, ignore_errors=False, onerror=handleError)
-        except OSError as e:
-            print ("Error: %s - %s." % (e.filename, e.strerror))
-        print(filesystem_path)
+# delete black list files from working dir
+blackListFiles = [".gitattributes",".gitignore", "make_release.py"]
+
+for file in blackListFiles:
+    if os.path.isfile(os.path.join(tempWorkingDir,file)):
+        os.remove(os.path.join(tempWorkingDir,file))
+
+# delete .git dir from working dir
+deleteFolderAndFiles(os.path.join(tempWorkingDir,".git"))
+
+print ("Starting zip archive to ", os.path.dirname(".."))
+shutil.make_archive((os.path.join('..', 'Kuwait UOAF.{}'.format(ver))), 'zip', tempWorkingDirRoot)
+print ("Finished archive")
+
+deleteFolderAndFiles(tempWorkingDirRoot)
