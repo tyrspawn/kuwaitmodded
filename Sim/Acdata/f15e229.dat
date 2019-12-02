@@ -916,7 +916,7 @@ avionicsRadarJamChevrons 1
 avionicsRadarVsMode 1
 avionicsRadarLrsMode 1
 avionicsRadarUlsMode 1
-avionicsColorMfd 1
+avionicsColorMfd 0
 avionicsGrayScaleGM 1
 avionicsActivateMFDBoot 1 #uri_ba 07/03/2015
 avionicsMMCUpgrade 1
