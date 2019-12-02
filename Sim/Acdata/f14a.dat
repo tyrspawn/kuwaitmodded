@@ -641,14 +641,6 @@ DoorDelayUp6 1.50
 DoorDelayUp7 1.50
 DoorDelayUp8 1.50
 #-----------------------------------------------------
-# OLD Catapult
-#-----------------------------------------------------
-#CATAPULTDist 150.0
-#COMPRESSIONPerc 30.0 #Falcas 05/23/2014
-#CarrierLatFrictionFactor 3.0
-#CatGearStiffDecomp 3.0
-#CatXOffset 20.0 #Added Falcas 11/12/2014
-#-----------------------------------------------------
 # Catapult
 #-----------------------------------------------------
 CATAPULTDist 150.0
