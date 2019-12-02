@@ -644,10 +644,16 @@ DoorDelayUp8 1.50
 # Catapult
 #-----------------------------------------------------
 CATAPULTDist 150.0
-COMPRESSIONPerc 30.0 #Falcas 05/23/2014
+COMPRESSIONPerc 5.0
 CarrierLatFrictionFactor 3.0
 CatGearStiffDecomp 3.0
 CatXOffset 20.0 #Added Falcas 11/12/2014
+#-----------------------------------------------------
+# Launchbar
+#-----------------------------------------------------
+hasLaunchBar 1
+LaunchBarMinAngle 0.0
+LaunchBarMaxAngle 80.0
 #-----------------------------------------------------
 # Hook
 #-----------------------------------------------------
