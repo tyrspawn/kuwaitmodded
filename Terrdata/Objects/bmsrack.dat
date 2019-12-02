@@ -2663,7 +2663,7 @@ definegroup f16-6/7-16s210
 	addpylon
 		pylonsmsname LNCH
 		pylonct 833
-		addrack f-16-aim7
+		addrack f16-aim7
 	# AA and ACMI pylon
 	addpylon	
 		pylonsmsname LNCH
@@ -2749,7 +2749,7 @@ definegroup f16-6/7
 	addpylon
 		pylonsmsname LNCH
 		pylonct 833
-		addrack f-16-aim7
+		addrack f16-aim7
 	# AA and ACMI pylon
 	addpylon
 		pylonsmsname MRL
