@@ -895,8 +895,8 @@ avionicsMLUPFL 1
 avionicsDatalink 1
 avionicsDLCursorAsWaypoint 0
 avionicsDteIdmLabel 0
-avionicsHudLadderTapeType 0
-avionicsHudVAHTapeType 0
+avionicsHudLadderTapeType 2
+avionicsHudVAHTapeType 2
 avionicsHudDGFTDefaultMode 0
 avionicsDGFTMasterModeLabelOnHud 0
 avionicsDGFTAttitudeAwareness 1
@@ -904,7 +904,7 @@ avionicsMLUM2TAOnHUD 1
 avionicsHudAATargetAspectAngle 1
 avionicsHudOlderMasterModeWindow 0
 avionicsNewAMRAAMdlz 1
-avionicsBullseyeOnHud 1
+avionicsBullseyeOnHud 0
 avionicsDEDHudRepeaterBlanksOnDGFT 1
 avionicsHudNavDeclutterEnabled 1
 avionicsHudNavSpdAltTapesLag 0
@@ -922,7 +922,7 @@ avionicsMMCUpgrade 1
 avionicsEGIUpgrade 1
 avionicsDigitalFLCS 1
 avionicsRWRType 0
-avionicsGunEEGSMode 1
+avionicsGunEEGSMode 0
 avionicsGunSSLCMode 1
 avionicsGunLCOSMode 1
 avionicsGunSNAPMode 1
