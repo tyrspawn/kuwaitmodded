@@ -39350,10 +39350,12 @@
         <Fuel>7162</Fuel>
         <FuelRate>100</FuelRate>
         <PtDataIdx>0</PtDataIdx>
-        <RoleScore_1>10</RoleScore_1>
+        <RoleScore_1>5</RoleScore_1>
+        <RoleScore_2>10</RoleScore_2>
         <RoleScore_3>50</RoleScore_3>
         <RoleScore_4>50</RoleScore_4>
         <RoleScore_5>25</RoleScore_5>
+        <RoleScore_7>20</RoleScore_7>
         <RoleScore_10>30</RoleScore_10>
         <MainRole>3</MainRole>
         <Hit_NoMove>70</Hit_NoMove>
@@ -42201,11 +42203,10 @@
         <PtDataIdx>0</PtDataIdx>
         <RoleScore_0>10</RoleScore_0>
         <RoleScore_1>80</RoleScore_1>
-        <RoleScore_3>70</RoleScore_3>
-        <RoleScore_4>80</RoleScore_4>
+        <RoleScore_3>30</RoleScore_3>
+        <RoleScore_4>30</RoleScore_4>
         <RoleScore_7>5</RoleScore_7>
-        <RoleScore_9>5</RoleScore_9>
-        <RoleScore_10>50</RoleScore_10>
+        <RoleScore_10>25</RoleScore_10>
         <MainRole>0</MainRole>
         <Hit_NoMove>70</Hit_NoMove>
         <Hit_Foot>50</Hit_Foot>
