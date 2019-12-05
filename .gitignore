@@ -11,3 +11,4 @@ Campaign/*.twx
 !Campaign/save1*
 !Campaign/save2*
 client_secrets.json
+mycreds.txt
